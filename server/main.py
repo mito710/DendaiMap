@@ -1,5 +1,33 @@
 import json
 import networkx as nx
+from fastapi import FastAPI # type: ignore
+from fastapi.middleware.cors import CORSMiddleware # type: ignore
+from pydantic import BaseModel # type: ignore
+
+app = FastAPI()
+app.add_middleware(
+    CORSMiddleware,
+    allow_origins=["*"],   # 開発用
+    allow_credentials=True,
+    allow_methods=["*"],
+    allow_headers=["*"],
+)
+
+
+class RouteRequest(BaseModel):
+    start: str
+    goal: str
+
+
+@app.get("/")
+def root():
+    return {"message": "Campus Route API"}
+
+
+@app.post("/route")
+def route(request: RouteRequest):
+    return find_route(request.start, request.goal)
+
 
 def find_route(start, goal):
     try:
@@ -14,10 +42,10 @@ def find_route(start, goal):
         distance_cal = calculate_distance(path_cal)
 
         return {
-        "path": path_cal,
-        "distance": round(distance_cal, -1),
-        "time": round(time_cal, 1)
-    }
+            "path": path_cal,
+            "distance": round(distance_cal, -1),
+            "time": round(time_cal, 1)
+        }
 
     except nx.NetworkXNoPath:
         return {
@@ -31,7 +59,8 @@ def find_route(start, goal):
             "distance": "エラー",
             "time": "エラー"
         }
-    
+
+
 def calculate_time(path):
     time = 0.0
 
@@ -39,7 +68,8 @@ def calculate_time(path):
         time += G[path[i]][path[i+1]]["time_weight"]
 
     return time
-    
+
+
 def calculate_distance(path):
     distance = 0.0
     for i in range(len(path) - 1):
@@ -47,10 +77,11 @@ def calculate_distance(path):
 
     return distance
 
+
 walking_speed = 1.5  # m/s
 G = nx.Graph()
 
-with open("data/mapping.json", encoding="utf-8") as file_mapping:
+with open("C:\\netproMap\\data\\mapping.json", encoding="utf-8") as file_mapping:
     data = json.load(file_mapping)
 
 for node in data["nodes"]:
