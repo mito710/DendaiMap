@@ -1,5 +1,6 @@
 import json
 import networkx as nx
+from pathlib import Path
 from fastapi import FastAPI # type: ignore
 from fastapi.middleware.cors import CORSMiddleware # type: ignore
 from pydantic import BaseModel # type: ignore
@@ -83,7 +84,10 @@ def calculate_distance(path):
 walking_speed = 1.5  # m/s
 G = nx.Graph()
 
-with open("C:\\netproMap\\data\\mapping.json", encoding="utf-8") as file_mapping:
+BASE_DIR = Path(__file__).resolve().parent.parent
+mapping_path = BASE_DIR / "data" / "mapping.json"
+
+with open(mapping_path, encoding="utf-8") as file_mapping:
     data = json.load(file_mapping)
 
 for node in data["nodes"]:
