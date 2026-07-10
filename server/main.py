@@ -4,6 +4,8 @@ from fastapi import FastAPI # type: ignore
 from fastapi.middleware.cors import CORSMiddleware # type: ignore
 from pydantic import BaseModel # type: ignore
 
+#python -m uvicorn main:app --reload
+
 app = FastAPI()
 app.add_middleware(
     CORSMiddleware,
