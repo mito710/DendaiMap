@@ -1,4 +1,6 @@
+console.log("script.js loaded");
 async function searchRoute() {
+    console.log("searchRoute called");
 
     const start = document.getElementById("start").value;
     const goal = document.getElementById("goal").value;
