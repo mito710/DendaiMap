@@ -1,23 +1,341 @@
+* {
+    box-sizing: border-box;
+}
+
 body {
+    min-height: 100vh;
+    margin: 0;
+    padding: 40px 20px;
 
-    font-family: sans-serif;
+    font-family:
+        -apple-system,
+        BlinkMacSystemFont,
+        "Segoe UI",
+        "Noto Sans JP",
+        sans-serif;
 
-    width: 600px;
-
-    margin: 40px auto;
-
+    color: #1f2937;
+    background:
+        linear-gradient(
+            135deg,
+            #eaf4ff 0%,
+            #f7f9fc 50%,
+            #edf7f3 100%
+        );
 }
 
-input {
-
-    width: 300px;
-
-    margin: 5px;
-
+button,
+select {
+    font: inherit;
 }
 
-button {
+.app {
+    width: min(760px, 100%);
+    margin: 0 auto;
+}
 
-    margin-top: 15px;
+.app-header {
+    margin-bottom: 28px;
+    text-align: center;
+}
 
+.sub-title {
+    margin: 0 0 6px;
+
+    color: #1665a7;
+    font-size: 12px;
+    font-weight: 700;
+    letter-spacing: 0.15em;
+}
+
+h1 {
+    margin: 0;
+    font-size: clamp(28px, 5vw, 42px);
+}
+
+.description {
+    margin: 10px 0 0;
+    color: #64748b;
+}
+
+.search-panel,
+.result-area {
+    padding: 28px;
+    border: 1px solid #dbe4ee;
+    border-radius: 20px;
+
+    background: rgba(255, 255, 255, 0.94);
+    box-shadow: 0 15px 40px rgba(44, 62, 80, 0.1);
+}
+
+.location-field {
+    display: grid;
+    gap: 8px;
+}
+
+.location-field label {
+    font-size: 14px;
+    font-weight: 700;
+}
+
+select {
+    width: 100%;
+    min-height: 50px;
+    padding: 0 14px;
+
+    border: 1px solid #cbd5e1;
+    border-radius: 10px;
+
+    color: #1f2937;
+    background-color: #ffffff;
+
+    cursor: pointer;
+}
+
+select:focus {
+    border-color: #2374b8;
+    outline: 3px solid rgba(35, 116, 184, 0.15);
+}
+
+.swap-button {
+    display: block;
+
+    width: 44px;
+    height: 44px;
+    margin: 10px auto;
+
+    border: 1px solid #bfd4e6;
+    border-radius: 50%;
+
+    color: #1665a7;
+    background: #edf7ff;
+
+    font-size: 22px;
+    cursor: pointer;
+
+    transition:
+        transform 0.2s,
+        background-color 0.2s;
+}
+
+.swap-button:hover {
+    transform: rotate(180deg);
+    background: #dcefff;
+}
+
+.search-button {
+    width: 100%;
+    min-height: 52px;
+    margin-top: 22px;
+
+    border: none;
+    border-radius: 12px;
+
+    color: #ffffff;
+    background: #1665a7;
+
+    font-weight: 700;
+    cursor: pointer;
+
+    transition:
+        transform 0.15s,
+        background-color 0.15s;
+}
+
+.search-button:hover {
+    background: #0f548d;
+    transform: translateY(-1px);
+}
+
+.search-button:disabled {
+    background: #94a3b8;
+    cursor: wait;
+    transform: none;
+}
+
+.message {
+    min-height: 24px;
+    margin: 14px 0 0;
+
+    text-align: center;
+    font-size: 14px;
+}
+
+.message.error {
+    color: #c53030;
+}
+
+.message.success {
+    color: #16834b;
+}
+
+.message.normal {
+    color: #64748b;
+}
+
+.result-area {
+    margin-top: 24px;
+}
+
+.result-area h2 {
+    margin: 0 0 20px;
+    font-size: 24px;
+}
+
+.route-summary {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 14px;
+}
+
+.summary-card {
+    padding: 20px;
+    border-radius: 14px;
+    background: #edf6ff;
+}
+
+.summary-label {
+    display: block;
+    margin-bottom: 6px;
+
+    color: #64748b;
+    font-size: 13px;
+}
+
+.summary-card strong {
+    color: #145d97;
+    font-size: 24px;
+}
+
+.route-information {
+    display: grid;
+    gap: 10px;
+
+    margin-top: 18px;
+    padding: 18px;
+
+    border: 1px solid #e2e8f0;
+    border-radius: 14px;
+}
+
+.route-information p {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+
+    margin: 0;
+}
+
+.route-label {
+    min-width: 48px;
+    padding: 5px 8px;
+    border-radius: 999px;
+
+    color: #ffffff;
+    background: #16834b;
+
+    text-align: center;
+    font-size: 12px;
+    font-weight: 700;
+}
+
+.goal-label {
+    background: #d34a4a;
+}
+
+.route-detail {
+    margin-top: 26px;
+}
+
+.route-detail h3 {
+    margin-bottom: 16px;
+}
+
+.route-list {
+    margin: 0;
+    padding: 0;
+
+    list-style: none;
+}
+
+.route-item {
+    position: relative;
+
+    display: flex;
+    gap: 14px;
+
+    min-height: 76px;
+}
+
+.route-item:not(:last-child)::after {
+    content: "";
+
+    position: absolute;
+    top: 40px;
+    left: 19px;
+
+    width: 3px;
+    height: 37px;
+
+    border-radius: 99px;
+    background: #b8d2e8;
+}
+
+.route-icon {
+    position: relative;
+    z-index: 1;
+
+    display: grid;
+    flex-shrink: 0;
+    place-items: center;
+
+    width: 40px;
+    height: 40px;
+
+    border: 3px solid #ffffff;
+    border-radius: 50%;
+
+    color: #ffffff;
+    background: #2374b8;
+    box-shadow: 0 0 0 1px #b8d2e8;
+
+    font-size: 12px;
+    font-weight: 700;
+}
+
+.route-text {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+
+    padding-top: 2px;
+}
+
+.route-text strong {
+    font-size: 16px;
+}
+
+.route-text span {
+    color: #64748b;
+    font-size: 13px;
+}
+
+.hidden {
+    display: none;
+}
+
+@media (max-width: 560px) {
+    body {
+        padding: 20px 12px;
+    }
+
+    .search-panel,
+    .result-area {
+        padding: 20px;
+        border-radius: 16px;
+    }
+
+    .route-summary {
+        grid-template-columns: 1fr;
+    }
 }

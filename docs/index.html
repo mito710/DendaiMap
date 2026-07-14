@@ -3,35 +3,100 @@
 
 <head>
     <meta charset="UTF-8">
-    <title>Campus Route</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>電大キャンパスマップ</title>
+
     <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
 
-    <h1>大学内経路検索</h1>
+    <main class="app">
 
-    <div>
+        <header class="app-header">
+            <p class="sub-title">TOKYO DENKI UNIVERSITY</p>
+            <h1>大学内経路検索</h1>
+            <p class="description">
+                出発地と目的地を選択すると、最短経路を案内します。
+            </p>
+        </header>
 
-        <label>出発地</label>
-        <input id="start" value="Room2903">
+        <section class="search-panel">
 
-    </div>
+            <div class="location-field">
+                <label for="start">出発地</label>
 
-    <div>
+                <select id="start">
+                    <option value="">出発地を選択してください</option>
+                </select>
+            </div>
 
-        <label>目的地</label>
-        <input id="goal" value="Room21003">
+            <button
+                id="swapButton"
+                class="swap-button"
+                type="button"
+                aria-label="出発地と目的地を入れ替える"
+            >
+                ⇅
+            </button>
 
-    </div>
+            <div class="location-field">
+                <label for="goal">目的地</label>
 
-    <button onclick="searchRoute()">
-        検索
-    </button>
+                <select id="goal">
+                    <option value="">目的地を選択してください</option>
+                </select>
+            </div>
 
-    <hr>
+            <button id="searchButton" class="search-button" type="button">
+                経路を検索
+            </button>
 
-    <pre id="result"></pre>
+            <p id="message" class="message"></p>
+
+        </section>
+
+        <section id="resultArea" class="result-area hidden">
+
+            <h2>検索結果</h2>
+
+            <div class="route-summary">
+
+                <article class="summary-card">
+                    <span class="summary-label">移動距離</span>
+                    <strong id="distanceResult">-- m</strong>
+                </article>
+
+                <article class="summary-card">
+                    <span class="summary-label">所要時間</span>
+                    <strong id="timeResult">-- 秒</strong>
+                </article>
+
+            </div>
+
+            <div class="route-information">
+
+                <p>
+                    <span class="route-label">出発</span>
+                    <strong id="startResult"></strong>
+                </p>
+
+                <p>
+                    <span class="route-label goal-label">到着</span>
+                    <strong id="goalResult"></strong>
+                </p>
+
+            </div>
+
+            <div class="route-detail">
+                <h3>案内経路</h3>
+                <ol id="routeList" class="route-list"></ol>
+            </div>
+
+        </section>
+
+    </main>
 
     <script src="script.js"></script>
 
