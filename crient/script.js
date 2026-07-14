@@ -3,7 +3,7 @@ async function searchRoute() {
     const start = document.getElementById("start").value;
     const goal = document.getElementById("goal").value;
 
-    const response = await fetch("https://dendaimap.onrender.com", {
+    const response = await fetch("https://dendaimap.onrender.com/route", {
 
         method: "POST",
 
