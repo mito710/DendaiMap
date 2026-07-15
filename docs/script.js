@@ -139,7 +139,6 @@ function swapLocations() {
 async function searchRoute() {
     const start = document.getElementById("start").value;
     const goal = document.getElementById("goal").value;
-    const mode =
     const searchButton = document.getElementById("searchButton");
 
     hideResult();
@@ -170,7 +169,19 @@ async function searchRoute() {
             body: JSON.stringify({
                 start: start,
                 goal: goal,
-                mode: mode
+
+                ここ変えたから確認してほしいです。検索条件を追加しました。
+                options: {
+
+                    distance: false,
+
+                    avoidStairs: true,
+
+                    avoidElevator: false,
+
+                    avoidEscalator: false,
+
+                }
             }),
         });
 
