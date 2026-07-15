@@ -3,8 +3,53 @@ const API_URL = "https://dendaimap.onrender.com/route";
 let nodes = [];
 let nodeMap = new Map();
 
+let allowStairs = true;
+let priority = "distance";
+
+
 document.addEventListener("DOMContentLoaded", () => {
   initializeApp();
+
+  const allowBtn = document.getElementById("allowStairs");
+  const avoidBtn = document.getElementById("avoidStairs");
+  const distanceBtn = document.getElementById("distancePriority");
+  const timeBtn = document.getElementById("timePriority");
+
+  allowBtn.addEventListener("click", () => {
+    allowStairs = true;
+
+    allowBtn.classList.add("active");
+    avoidBtn.classList.remove("active");
+
+    hideResult();
+  });
+
+  avoidBtn.addEventListener("click", () => {
+    allowStairs = false;
+
+    avoidBtn.classList.add("active");
+    allowBtn.classList.remove("active");
+
+    hideResult();
+  });
+
+  distanceBtn.addEventListener("click", () => {
+    priority = "distance";
+
+    distanceBtn.classList.add("active");
+    timeBtn.classList.remove("active");
+
+    hideResult();
+  });
+
+  timeBtn.addEventListener("click", () => {
+    priority = "time";
+
+    timeBtn.classList.add("active");
+    distanceBtn.classList.remove("active");
+
+    hideResult();
+  });
 
   document
     .getElementById("searchButton")
@@ -333,7 +378,14 @@ async function searchRoute() {
   searchButton.disabled = true;
   searchButton.textContent = "検索中...";
 
-  showMessage("最短経路を検索しています。", "normal");
+  const priorityText = priority === "distance" ? "距離優先" : "時間優先";
+
+  const stairsText = allowStairs ? "階段使用可" : "階段不使用";
+
+  showMessage(
+    `${priorityText}・${stairsText}で経路を検索しています。`,
+    "normal",
+  );
 
   try {
     const response = await fetch(API_URL, {
@@ -346,6 +398,8 @@ async function searchRoute() {
       body: JSON.stringify({
         start: start,
         goal: goal,
+        allowStairs: allowStairs,
+        priority: priority,
       }),
     });
 
@@ -361,6 +415,7 @@ async function searchRoute() {
 
     displayRoute(result, start, goal);
 
+    
     showMessage("経路が見つかりました。", "success");
   } catch (error) {
     console.error(error);
@@ -375,16 +430,18 @@ async function searchRoute() {
 /**
  * 検索結果を表示する
  */
+/**
+ * 検索結果を表示する
+ */
 function displayRoute(result, startId, goalId) {
   const resultArea = document.getElementById("resultArea");
-
   const routeList = document.getElementById("routeList");
 
   const startNode = nodeMap.get(startId);
   const goalNode = nodeMap.get(goalId);
 
   document.getElementById("distanceResult").textContent =
-    `${result.distance} m`;
+    `${Number(result.distance).toFixed(1)} m`;
 
   document.getElementById("timeResult").textContent = formatTime(result.time);
 
@@ -395,38 +452,51 @@ function displayRoute(result, startId, goalId) {
 
   routeList.innerHTML = "";
 
-  result.path.forEach((nodeId, index) => {
-    const node = nodeMap.get(nodeId);
+  const displaySteps = createDisplaySteps(result.path);
 
+  displaySteps.forEach((step, index) => {
     const listItem = document.createElement("li");
-
     listItem.className = "route-item";
 
     const icon = document.createElement("span");
-
     icon.className = "route-icon";
-    icon.textContent = getNodeIcon(node);
 
     const textArea = document.createElement("div");
-
     textArea.className = "route-text";
 
-    const nodeName = document.createElement("strong");
+    const title = document.createElement("strong");
+    const detail = document.createElement("span");
 
-    nodeName.textContent = node?.name || nodeId;
+    if (step.kind === "node") {
+      const node = step.node;
 
-    const nodeDetail = document.createElement("span");
+      icon.textContent = getNodeIcon(node);
+      title.textContent = node?.name || step.nodeId;
 
-    if (index === 0) {
-      nodeDetail.textContent = "出発地点";
-    } else if (index === result.path.length - 1) {
-      nodeDetail.textContent = "目的地に到着";
-    } else {
-      nodeDetail.textContent = `${node?.buildingNumber || "-"}号館 ${node?.floor || "-"}階`;
+      if (index === 0) {
+        detail.textContent = "出発地点";
+      } else if (index === displaySteps.length - 1) {
+        detail.textContent = "目的地に到着";
+      } else {
+        detail.textContent =
+          `${node?.buildingNumber || "-"}号館 ` + `${node?.floor || "-"}階`;
+      }
     }
 
-    textArea.appendChild(nodeName);
-    textArea.appendChild(nodeDetail);
+    if (step.kind === "verticalMove") {
+      icon.textContent = getNodeIcon({
+        type: step.type,
+      });
+
+      title.textContent =
+        `${step.startFloor}階から${step.endFloor}階まで` +
+        `${getTransportName(step.type)}で移動`;
+
+      detail.textContent = `${step.buildingNumber}号館内を移動`;
+    }
+
+    textArea.appendChild(title);
+    textArea.appendChild(detail);
 
     listItem.appendChild(icon);
     listItem.appendChild(textArea);
@@ -436,6 +506,117 @@ function displayRoute(result, startId, goalId) {
 
   resultArea.classList.remove("hidden");
 }
+
+/**
+ * APIから受け取った経路を、画面表示用にまとめる
+ */
+function createDisplaySteps(path) {
+    const steps = [];
+
+    let index = 0;
+
+    while (index < path.length) {
+        const nodeId = path[index];
+        const node = nodeMap.get(nodeId);
+
+        /*
+         * エレベーターまたはエスカレーターだった場合
+         */
+        if (isVerticalTransport(node)) {
+            const transportType = node.type;
+            const transportNodes = [node];
+
+            let nextIndex = index + 1;
+
+            /*
+             * 同じ種類の移動設備が連続している間、
+             * まとめて取得する
+             */
+            while (nextIndex < path.length) {
+                const nextNode = nodeMap.get(path[nextIndex]);
+
+                if (
+                    nextNode &&
+                    nextNode.type === transportType &&
+                    nextNode.buildingNumber === node.buildingNumber
+                ) {
+                    transportNodes.push(nextNode);
+                    nextIndex++;
+                } else {
+                    break;
+                }
+            }
+
+            /*
+             * 複数階にまたがっている場合だけまとめる
+             */
+            if (transportNodes.length >= 2) {
+                const firstNode = transportNodes[0];
+                const lastNode =
+                    transportNodes[transportNodes.length - 1];
+
+                steps.push({
+                    kind: "verticalMove",
+                    type: transportType,
+                    buildingNumber: firstNode.buildingNumber,
+                    startFloor: firstNode.floor,
+                    endFloor: lastNode.floor
+                });
+
+                index = nextIndex;
+                continue;
+            }
+        }
+
+        /*
+         * 通常の地点として追加
+         */
+        steps.push({
+            kind: "node",
+            nodeId: nodeId,
+            node: node
+        });
+
+        index++;
+    }
+
+    return steps;
+}
+
+/**
+ * 上下移動に使う設備か判定する
+ */
+function isVerticalTransport(node) {
+    return (
+        node &&
+        (
+            node.type === "elevator" ||
+            node.type === "escalator"||
+            node.type === "stair"
+        )
+    );
+}
+
+/**
+ * 設備の日本語名を返す
+ */
+function getTransportName(type) {
+  if (type === "elevator") {
+    return "エレベーター";
+  }
+
+  if (type === "escalator") {
+    return "エスカレーター";
+  }
+
+  if (type === "stair") {
+    return "階段";
+  }
+
+  return "移動設備";
+}
+
+
 
 /**
  * 地点種別のアイコン
