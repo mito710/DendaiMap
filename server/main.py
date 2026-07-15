@@ -11,7 +11,7 @@ app = FastAPI()
 app.add_middleware(
     CORSMiddleware,
     allow_origins=[
-        "https://あなたのGitHubユーザー名.github.io"
+        "https://mito710.github.io/DendaiMap/"
     ],
     allow_credentials=False,
     allow_methods=["GET", "POST"],
