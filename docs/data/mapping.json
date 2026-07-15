@@ -1,0 +1,4926 @@
+{
+    "nodes": [
+        {
+            "id": "Room2101",
+            "name": "2101教室前",
+            "type": "room",
+            "buildingNumber": 2,
+            "floor": 1
+        },
+        {
+            "id": "Room2102",
+            "name": "2号館1階ラウンジ前",
+            "type": "room",
+            "buildingNumber": 2,
+            "floor": 1
+        },
+        {
+            "id": "Room2103",
+            "name": "2103教室前",
+            "type": "room",
+            "buildingNumber": 2,
+            "floor": 1
+        },
+        {
+            "id": "Room2104",
+            "name": "2104教室前",
+            "type": "room",
+            "buildingNumber": 2,
+            "floor": 1
+        },
+        {
+            "id": "Room2105",
+            "name": "2105教室前",
+            "type": "room",
+            "buildingNumber": 2,
+            "floor": 1
+        },
+        {
+            "id": "EscalatorUp21",
+            "name": "2号館1階上りエスカレーター",
+            "type": "escalator",
+            "buildingNumber": 2,
+            "floor": 1
+        },
+        {
+            "id": "EscalatorDown21",
+            "name": "2号館1階下りエスカレーター",
+            "type": "escalator",
+            "buildingNumber": 2,
+            "floor": 1
+        },
+        {
+            "id": "StairsUp21D",
+            "name": "2号館1階階段D上り",
+            "type": "stair",
+            "stairType": "normal",
+            "buildingNumber": 2,
+            "floor": 1
+        },
+        {
+            "id": "StairsDown21D",
+            "name": "2号館1階階段D下り",
+            "type": "stair",
+            "stairType": "normal",
+            "buildingNumber": 2,
+            "floor": 1
+        },
+        {
+            "id": "StairsSpiral21A",
+            "name": "2号館1階螺旋階段A出入口",
+            "type": "stair",
+            "stairType": "spiral",
+            "buildingNumber": 2,
+            "floor": 1
+        },
+        {
+            "id": "StairsSpiral21B",
+            "name": "2号館1階螺旋階段B出入口",
+            "type": "stair",
+            "stairType": "spiral",
+            "buildingNumber": 2,
+            "floor": 1
+        },
+        {
+            "id": "Elevator21",
+            "name": "2号館1階エレベーターホール",
+            "type": "elevator",
+            "buildingNumber": 2,
+            "floor": 1
+        },
+        {
+            "id": "Room2201",
+            "name": "2201教室前",
+            "type": "room",
+            "buildingNumber": 2,
+            "floor": 2
+        },
+        {
+            "id": "Room2202",
+            "name": "2号館2階ラウンジ前",
+            "type": "room",
+            "buildingNumber": 2,
+            "floor": 2
+        },
+        {
+            "id": "Room2203",
+            "name": "2203教室前",
+            "type": "room",
+            "buildingNumber": 2,
+            "floor": 2
+        },
+        {
+            "id": "Room2204",
+            "name": "2204教室前",
+            "type": "room",
+            "buildingNumber": 2,
+            "floor": 2
+        },
+        {
+            "id": "Room2205",
+            "name": "2205教室前",
+            "type": "room",
+            "buildingNumber": 2,
+            "floor": 2
+        },
+        {
+            "id": "EscalatorUp22",
+            "name": "2号館2階上りエスカレーター",
+            "type": "escalator",
+            "buildingNumber": 2,
+            "floor": 2
+        },
+        {
+            "id": "EscalatorDown22",
+            "name": "2号館2階下りエスカレーター",
+            "type": "escalator",
+            "buildingNumber": 2,
+            "floor": 2
+        },
+        {
+            "id": "StairsUp22D",
+            "name": "2号館2階階段D上り",
+            "type": "stair",
+            "stairType": "normal",
+            "buildingNumber": 2,
+            "floor": 2
+        },
+        {
+            "id": "StairsDown22D",
+            "name": "2号館2階階段D下り",
+            "type": "stair",
+            "stairType": "normal",
+            "buildingNumber": 2,
+            "floor": 2
+        },
+        {
+            "id": "StairsSpiral22A",
+            "name": "2号館2階螺旋階段A出入口",
+            "type": "stair",
+            "stairType": "spiral",
+            "buildingNumber": 2,
+            "floor": 2
+        },
+        {
+            "id": "StairsSpiral22B",
+            "name": "2号館2階螺旋階段B出入口",
+            "type": "stair",
+            "stairType": "spiral",
+            "buildingNumber": 2,
+            "floor": 2
+        },
+        {
+            "id": "Elevator22",
+            "name": "2号館2階エレベーターホール",
+            "type": "elevator",
+            "buildingNumber": 2,
+            "floor": 2
+        },
+        {
+            "id": "Room2301",
+            "name": "2301教室前",
+            "type": "room",
+            "buildingNumber": 2,
+            "floor": 3
+        },
+        {
+            "id": "Room2302",
+            "name": "2号館3階ラウンジ前",
+            "type": "room",
+            "buildingNumber": 2,
+            "floor": 3
+        },
+        {
+            "id": "Room2303",
+            "name": "2303教室前",
+            "type": "room",
+            "buildingNumber": 2,
+            "floor": 3
+        },
+        {
+            "id": "Room2304",
+            "name": "2304教室前",
+            "type": "room",
+            "buildingNumber": 2,
+            "floor": 3
+        },
+        {
+            "id": "Room2305",
+            "name": "2305教室前",
+            "type": "room",
+            "buildingNumber": 2,
+            "floor": 3
+        },
+        {
+            "id": "EscalatorUp23",
+            "name": "2号館3階上りエスカレーター",
+            "type": "escalator",
+            "buildingNumber": 2,
+            "floor": 3
+        },
+        {
+            "id": "EscalatorDown23",
+            "name": "2号館3階下りエスカレーター",
+            "type": "escalator",
+            "buildingNumber": 2,
+            "floor": 3
+        },
+        {
+            "id": "StairsUp23D",
+            "name": "2号館3階階段D上り",
+            "type": "stair",
+            "stairType": "normal",
+            "buildingNumber": 2,
+            "floor": 3
+        },
+        {
+            "id": "StairsDown23D",
+            "name": "2号館3階階段D下り",
+            "type": "stair",
+            "stairType": "normal",
+            "buildingNumber": 2,
+            "floor": 3
+        },
+        {
+            "id": "StairsSpiral23A",
+            "name": "2号館3階螺旋階段A出入口",
+            "type": "stair",
+            "stairType": "spiral",
+            "buildingNumber": 2,
+            "floor": 3
+        },
+        {
+            "id": "StairsSpiral23B",
+            "name": "2号館3階螺旋階段B出入口",
+            "type": "stair",
+            "stairType": "spiral",
+            "buildingNumber": 2,
+            "floor": 3
+        },
+        {
+            "id": "Elevator23",
+            "name": "2号館3階エレベーターホール",
+            "type": "elevator",
+            "buildingNumber": 2,
+            "floor": 3
+        },
+        {
+            "id": "Room2401",
+            "name": "2401教室前",
+            "type": "room",
+            "buildingNumber": 2,
+            "floor": 4
+        },
+        {
+            "id": "Room2402",
+            "name": "2号館4階ラウンジ前",
+            "type": "room",
+            "buildingNumber": 2,
+            "floor": 4
+        },
+        {
+            "id": "Room2403",
+            "name": "2403教室前",
+            "type": "room",
+            "buildingNumber": 2,
+            "floor": 4
+        },
+        {
+            "id": "Room2404",
+            "name": "2404教室前",
+            "type": "room",
+            "buildingNumber": 2,
+            "floor": 4
+        },
+        {
+            "id": "Room2405",
+            "name": "2405教室前",
+            "type": "room",
+            "buildingNumber": 2,
+            "floor": 4
+        },
+        {
+            "id": "EscalatorUp24",
+            "name": "2号館4階上りエスカレーター",
+            "type": "escalator",
+            "buildingNumber": 2,
+            "floor": 4
+        },
+        {
+            "id": "EscalatorDown24",
+            "name": "2号館4階下りエスカレーター",
+            "type": "escalator",
+            "buildingNumber": 2,
+            "floor": 4
+        },
+        {
+            "id": "StairsUp24D",
+            "name": "2号館4階階段D上り",
+            "type": "stair",
+            "stairType": "normal",
+            "buildingNumber": 2,
+            "floor": 4
+        },
+        {
+            "id": "StairsDown24D",
+            "name": "2号館4階階段D下り",
+            "type": "stair",
+            "stairType": "normal",
+            "buildingNumber": 2,
+            "floor": 4
+        },
+        {
+            "id": "StairsSpiral24A",
+            "name": "2号館4階螺旋階段A出入口",
+            "type": "stair",
+            "stairType": "spiral",
+            "buildingNumber": 2,
+            "floor": 4
+        },
+        {
+            "id": "StairsSpiral24B",
+            "name": "2号館4階螺旋階段B出入口",
+            "type": "stair",
+            "stairType": "spiral",
+            "buildingNumber": 2,
+            "floor": 4
+        },
+        {
+            "id": "Elevator24",
+            "name": "2号館4階エレベーターホール",
+            "type": "elevator",
+            "buildingNumber": 2,
+            "floor": 4
+        },
+        {
+            "id": "Room2501",
+            "name": "2501教室前",
+            "type": "room",
+            "buildingNumber": 2,
+            "floor": 5
+        },
+        {
+            "id": "Room2502",
+            "name": "2号館5階ラウンジ前",
+            "type": "room",
+            "buildingNumber": 2,
+            "floor": 5
+        },
+        {
+            "id": "Room2503",
+            "name": "2503教室前",
+            "type": "room",
+            "buildingNumber": 2,
+            "floor": 5
+        },
+        {
+            "id": "Room2504",
+            "name": "2504教室前",
+            "type": "room",
+            "buildingNumber": 2,
+            "floor": 5
+        },
+        {
+            "id": "Room2505",
+            "name": "2505教室前",
+            "type": "room",
+            "buildingNumber": 2,
+            "floor": 5
+        },
+        {
+            "id": "EscalatorUp25",
+            "name": "2号館5階上りエスカレーター",
+            "type": "escalator",
+            "buildingNumber": 2,
+            "floor": 5
+        },
+        {
+            "id": "EscalatorDown25",
+            "name": "2号館5階下りエスカレーター",
+            "type": "escalator",
+            "buildingNumber": 2,
+            "floor": 5
+        },
+        {
+            "id": "StairsUp25D",
+            "name": "2号館5階階段D上り",
+            "type": "stair",
+            "stairType": "normal",
+            "buildingNumber": 2,
+            "floor": 5
+        },
+        {
+            "id": "StairsDown25D",
+            "name": "2号館5階階段D下り",
+            "type": "stair",
+            "stairType": "normal",
+            "buildingNumber": 2,
+            "floor": 5
+        },
+        {
+            "id": "StairsSpiral25A",
+            "name": "2号館5階螺旋階段A出入口",
+            "type": "stair",
+            "stairType": "spiral",
+            "buildingNumber": 2,
+            "floor": 5
+        },
+        {
+            "id": "StairsSpiral25B",
+            "name": "2号館5階螺旋階段B出入口",
+            "type": "stair",
+            "stairType": "spiral",
+            "buildingNumber": 2,
+            "floor": 5
+        },
+        {
+            "id": "Elevator25",
+            "name": "2号館5階エレベーターホール",
+            "type": "elevator",
+            "buildingNumber": 2,
+            "floor": 5
+        },
+        {
+            "id": "Room2601",
+            "name": "2601教室前",
+            "type": "room",
+            "buildingNumber": 2,
+            "floor": 6
+        },
+        {
+            "id": "Room2602",
+            "name": "2号館6階ラウンジ前",
+            "type": "room",
+            "buildingNumber": 2,
+            "floor": 6
+        },
+        {
+            "id": "Room2603",
+            "name": "2603教室前",
+            "type": "room",
+            "buildingNumber": 2,
+            "floor": 6
+        },
+        {
+            "id": "Room2604",
+            "name": "2604教室前",
+            "type": "room",
+            "buildingNumber": 2,
+            "floor": 6
+        },
+        {
+            "id": "Room2605",
+            "name": "2605教室前",
+            "type": "room",
+            "buildingNumber": 2,
+            "floor": 6
+        },
+        {
+            "id": "EscalatorUp26",
+            "name": "2号館6階上りエスカレーター",
+            "type": "escalator",
+            "buildingNumber": 2,
+            "floor": 6
+        },
+        {
+            "id": "EscalatorDown26",
+            "name": "2号館6階下りエスカレーター",
+            "type": "escalator",
+            "buildingNumber": 2,
+            "floor": 6
+        },
+        {
+            "id": "StairsUp26D",
+            "name": "2号館6階階段D上り",
+            "type": "stair",
+            "stairType": "normal",
+            "buildingNumber": 2,
+            "floor": 6
+        },
+        {
+            "id": "StairsDown26D",
+            "name": "2号館6階階段D下り",
+            "type": "stair",
+            "stairType": "normal",
+            "buildingNumber": 2,
+            "floor": 6
+        },
+        {
+            "id": "StairsSpiral26A",
+            "name": "2号館6階螺旋階段A出入口",
+            "type": "stair",
+            "stairType": "spiral",
+            "buildingNumber": 2,
+            "floor": 6
+        },
+        {
+            "id": "StairsSpiral26B",
+            "name": "2号館6階螺旋階段B出入口",
+            "type": "stair",
+            "stairType": "spiral",
+            "buildingNumber": 2,
+            "floor": 6
+        },
+        {
+            "id": "Elevator26",
+            "name": "2号館6階エレベーターホール",
+            "type": "elevator",
+            "buildingNumber": 2,
+            "floor": 6
+        },
+        {
+            "id": "Room2701",
+            "name": "2701教室前",
+            "type": "room",
+            "buildingNumber": 2,
+            "floor": 7
+        },
+        {
+            "id": "Room2702",
+            "name": "2号館7階ラウンジ前",
+            "type": "room",
+            "buildingNumber": 2,
+            "floor": 7
+        },
+        {
+            "id": "Room2703",
+            "name": "2703教室前",
+            "type": "room",
+            "buildingNumber": 2,
+            "floor": 7
+        },
+        {
+            "id": "Room2704",
+            "name": "2704教室前",
+            "type": "room",
+            "buildingNumber": 2,
+            "floor": 7
+        },
+        {
+            "id": "Room2705",
+            "name": "2705教室前",
+            "type": "room",
+            "buildingNumber": 2,
+            "floor": 7
+        },
+        {
+            "id": "EscalatorUp27",
+            "name": "2号館7階上りエスカレーター",
+            "type": "escalator",
+            "buildingNumber": 2,
+            "floor": 7
+        },
+        {
+            "id": "EscalatorDown27",
+            "name": "2号館7階下りエスカレーター",
+            "type": "escalator",
+            "buildingNumber": 2,
+            "floor": 7
+        },
+        {
+            "id": "StairsUp27D",
+            "name": "2号館7階階段D上り",
+            "type": "stair",
+            "stairType": "normal",
+            "buildingNumber": 2,
+            "floor": 7
+        },
+        {
+            "id": "StairsDown27D",
+            "name": "2号館7階階段D下り",
+            "type": "stair",
+            "stairType": "normal",
+            "buildingNumber": 2,
+            "floor": 7
+        },
+        {
+            "id": "StairsSpiral27A",
+            "name": "2号館7階螺旋階段A出入口",
+            "type": "stair",
+            "stairType": "spiral",
+            "buildingNumber": 2,
+            "floor": 7
+        },
+        {
+            "id": "StairsSpiral27B",
+            "name": "2号館7階螺旋階段B出入口",
+            "type": "stair",
+            "stairType": "spiral",
+            "buildingNumber": 2,
+            "floor": 7
+        },
+        {
+            "id": "Elevator27",
+            "name": "2号館7階エレベーターホール",
+            "type": "elevator",
+            "buildingNumber": 2,
+            "floor": 7
+        },
+        {
+            "id": "Room2801",
+            "name": "2801教室前",
+            "type": "room",
+            "buildingNumber": 2,
+            "floor": 8
+        },
+        {
+            "id": "Room2802",
+            "name": "2号館8階ラウンジ前",
+            "type": "room",
+            "buildingNumber": 2,
+            "floor": 8
+        },
+        {
+            "id": "Room2803",
+            "name": "2803教室前",
+            "type": "room",
+            "buildingNumber": 2,
+            "floor": 8
+        },
+        {
+            "id": "Room2804",
+            "name": "2804教室前",
+            "type": "room",
+            "buildingNumber": 2,
+            "floor": 8
+        },
+        {
+            "id": "Room2805",
+            "name": "2805教室前",
+            "type": "room",
+            "buildingNumber": 2,
+            "floor": 8
+        },
+        {
+            "id": "EscalatorUp28",
+            "name": "2号館8階上りエスカレーター",
+            "type": "escalator",
+            "buildingNumber": 2,
+            "floor": 8
+        },
+        {
+            "id": "EscalatorDown28",
+            "name": "2号館8階下りエスカレーター",
+            "type": "escalator",
+            "buildingNumber": 2,
+            "floor": 8
+        },
+        {
+            "id": "StairsUp28D",
+            "name": "2号館8階階段D上り",
+            "type": "stair",
+            "stairType": "normal",
+            "buildingNumber": 2,
+            "floor": 8
+        },
+        {
+            "id": "StairsDown28D",
+            "name": "2号館8階階段D下り",
+            "type": "stair",
+            "stairType": "normal",
+            "buildingNumber": 2,
+            "floor": 8
+        },
+        {
+            "id": "StairsSpiral28A",
+            "name": "2号館8階螺旋階段A出入口",
+            "type": "stair",
+            "stairType": "spiral",
+            "buildingNumber": 2,
+            "floor": 8
+        },
+        {
+            "id": "StairsSpiral28B",
+            "name": "2号館8階螺旋階段B出入口",
+            "type": "stair",
+            "stairType": "spiral",
+            "buildingNumber": 2,
+            "floor": 8
+        },
+        {
+            "id": "Elevator28",
+            "name": "2号館8階エレベーターホール",
+            "type": "elevator",
+            "buildingNumber": 2,
+            "floor": 8
+        },
+        {
+            "id": "Room2901",
+            "name": "2901教室前",
+            "type": "room",
+            "buildingNumber": 2,
+            "floor": 9
+        },
+        {
+            "id": "Room2902",
+            "name": "2号館9階ラウンジ前",
+            "type": "room",
+            "buildingNumber": 2,
+            "floor": 9
+        },
+        {
+            "id": "Room2903",
+            "name": "2903教室前",
+            "type": "room",
+            "buildingNumber": 2,
+            "floor": 9
+        },
+        {
+            "id": "Room2904",
+            "name": "2904教室前",
+            "type": "room",
+            "buildingNumber": 2,
+            "floor": 9
+        },
+        {
+            "id": "Room2905",
+            "name": "2905教室前",
+            "type": "room",
+            "buildingNumber": 2,
+            "floor": 9
+        },
+        {
+            "id": "EscalatorUp29",
+            "name": "2号館9階上りエスカレーター",
+            "type": "escalator",
+            "buildingNumber": 2,
+            "floor": 9
+        },
+        {
+            "id": "EscalatorDown29",
+            "name": "2号館9階下りエスカレーター",
+            "type": "escalator",
+            "buildingNumber": 2,
+            "floor": 9
+        },
+        {
+            "id": "StairsUp29D",
+            "name": "2号館9階階段D上り",
+            "type": "stair",
+            "stairType": "normal",
+            "buildingNumber": 2,
+            "floor": 9
+        },
+        {
+            "id": "StairsDown29D",
+            "name": "2号館9階階段D下り",
+            "type": "stair",
+            "stairType": "normal",
+            "buildingNumber": 2,
+            "floor": 9
+        },
+        {
+            "id": "StairsSpiral29A",
+            "name": "2号館9階螺旋階段A出入口",
+            "type": "stair",
+            "stairType": "spiral",
+            "buildingNumber": 2,
+            "floor": 9
+        },
+        {
+            "id": "StairsSpiral29B",
+            "name": "2号館9階螺旋階段B出入口",
+            "type": "stair",
+            "stairType": "spiral",
+            "buildingNumber": 2,
+            "floor": 9
+        },
+        {
+            "id": "Elevator29",
+            "name": "2号館9階エレベーターホール",
+            "type": "elevator",
+            "buildingNumber": 2,
+            "floor": 9
+        },
+        {
+            "id": "Room21001",
+            "name": "21001教室前",
+            "type": "room",
+            "buildingNumber": 2,
+            "floor": 10
+        },
+        {
+            "id": "Room21002",
+            "name": "2号館10階ラウンジ前",
+            "type": "room",
+            "buildingNumber": 2,
+            "floor": 10
+        },
+        {
+            "id": "Room21003",
+            "name": "21003教室前",
+            "type": "room",
+            "buildingNumber": 2,
+            "floor": 10
+        },
+        {
+            "id": "Room21004",
+            "name": "21004教室前",
+            "type": "room",
+            "buildingNumber": 2,
+            "floor": 10
+        },
+        {
+            "id": "Room21005",
+            "name": "21005教室前",
+            "type": "room",
+            "buildingNumber": 2,
+            "floor": 10
+        },
+        {
+            "id": "EscalatorUp210",
+            "name": "2号館10階上りエスカレーター",
+            "type": "escalator",
+            "buildingNumber": 2,
+            "floor": 10
+        },
+        {
+            "id": "EscalatorDown210",
+            "name": "2号館10階下りエスカレーター",
+            "type": "escalator",
+            "buildingNumber": 2,
+            "floor": 10
+        },
+        {
+            "id": "StairsUp210D",
+            "name": "2号館10階階段D上り",
+            "type": "stair",
+            "stairType": "normal",
+            "buildingNumber": 2,
+            "floor": 10
+        },
+        {
+            "id": "StairsDown210D",
+            "name": "2号館10階階段D下り",
+            "type": "stair",
+            "stairType": "normal",
+            "buildingNumber": 2,
+            "floor": 10
+        },
+        {
+            "id": "StairsSpiral210A",
+            "name": "2号館10階螺旋階段A出入口",
+            "type": "stair",
+            "stairType": "spiral",
+            "buildingNumber": 2,
+            "floor": 10
+        },
+        {
+            "id": "StairsSpiral210B",
+            "name": "2号館10階螺旋階段B出入口",
+            "type": "stair",
+            "stairType": "spiral",
+            "buildingNumber": 2,
+            "floor": 10
+        },
+        {
+            "id": "Elevator210",
+            "name": "2号館10階エレベーターホール",
+            "type": "elevator",
+            "buildingNumber": 2,
+            "floor": 10
+        }
+    ],
+    "edges": [
+        {
+            "from": "EscalatorUp21",
+            "to": "Room2101",
+            "distance": 12.0,
+            "waitTime": 0,
+            "closed": false,
+            "crowded": 0.0,
+            "accessible": true,
+            "edgeType": "hallway"
+        },
+        {
+            "from": "EscalatorUp21",
+            "to": "Room2102",
+            "distance": 5.0,
+            "waitTime": 0,
+            "closed": false,
+            "crowded": 0.0,
+            "accessible": true,
+            "edgeType": "hallway"
+        },
+        {
+            "from": "EscalatorUp21",
+            "to": "Room2103",
+            "distance": 3.0,
+            "waitTime": 0,
+            "closed": false,
+            "crowded": 0.0,
+            "accessible": true,
+            "edgeType": "hallway"
+        },
+        {
+            "from": "EscalatorUp21",
+            "to": "Room2104",
+            "distance": 6.0,
+            "waitTime": 0,
+            "closed": false,
+            "crowded": 0.0,
+            "accessible": true,
+            "edgeType": "hallway"
+        },
+        {
+            "from": "EscalatorUp21",
+            "to": "Room2105",
+            "distance": 18.0,
+            "waitTime": 0,
+            "closed": false,
+            "crowded": 0.0,
+            "accessible": true,
+            "edgeType": "hallway"
+        },
+        {
+            "from": "EscalatorDown21",
+            "to": "Room2101",
+            "distance": 6.0,
+            "waitTime": 0,
+            "closed": false,
+            "crowded": 0.0,
+            "accessible": true,
+            "edgeType": "hallway"
+        },
+        {
+            "from": "EscalatorDown21",
+            "to": "Room2102",
+            "distance": 6.0,
+            "waitTime": 0,
+            "closed": false,
+            "crowded": 0.0,
+            "accessible": true,
+            "edgeType": "hallway"
+        },
+        {
+            "from": "EscalatorDown21",
+            "to": "Room2103",
+            "distance": 18.0,
+            "waitTime": 0,
+            "closed": false,
+            "crowded": 0.0,
+            "accessible": true,
+            "edgeType": "hallway"
+        },
+        {
+            "from": "EscalatorDown21",
+            "to": "Room2104",
+            "distance": 15.0,
+            "waitTime": 0,
+            "closed": false,
+            "crowded": 0.0,
+            "accessible": true,
+            "edgeType": "hallway"
+        },
+        {
+            "from": "EscalatorDown21",
+            "to": "Room2105",
+            "distance": 3.0,
+            "waitTime": 0,
+            "closed": false,
+            "crowded": 0.0,
+            "accessible": true,
+            "edgeType": "hallway"
+        },
+        {
+            "from": "StairsUp21D",
+            "to": "Room2101",
+            "distance": 17.0,
+            "waitTime": 0,
+            "closed": false,
+            "crowded": 0.0,
+            "accessible": true,
+            "edgeType": "hallway"
+        },
+        {
+            "from": "StairsUp21D",
+            "to": "Room2102",
+            "distance": 19.0,
+            "waitTime": 0,
+            "closed": false,
+            "crowded": 0.0,
+            "accessible": true,
+            "edgeType": "hallway"
+        },
+        {
+            "from": "StairsUp21D",
+            "to": "Room2103",
+            "distance": 27.0,
+            "waitTime": 0,
+            "closed": false,
+            "crowded": 0.0,
+            "accessible": true,
+            "edgeType": "hallway"
+        },
+        {
+            "from": "StairsUp21D",
+            "to": "Room2104",
+            "distance": 18.0,
+            "waitTime": 0,
+            "closed": false,
+            "crowded": 0.0,
+            "accessible": true,
+            "edgeType": "hallway"
+        },
+        {
+            "from": "StairsUp21D",
+            "to": "Room2105",
+            "distance": 10.0,
+            "waitTime": 0,
+            "closed": false,
+            "crowded": 0.0,
+            "accessible": true,
+            "edgeType": "hallway"
+        },
+        {
+            "from": "StairsDown21D",
+            "to": "Room2101",
+            "distance": 27.0,
+            "waitTime": 0,
+            "closed": false,
+            "crowded": 0.0,
+            "accessible": true,
+            "edgeType": "hallway"
+        },
+        {
+            "from": "StairsDown21D",
+            "to": "Room2102",
+            "distance": 19.0,
+            "waitTime": 0,
+            "closed": false,
+            "crowded": 0.0,
+            "accessible": true,
+            "edgeType": "hallway"
+        },
+        {
+            "from": "StairsDown21D",
+            "to": "Room2103",
+            "distance": 17.0,
+            "waitTime": 0,
+            "closed": false,
+            "crowded": 0.0,
+            "accessible": true,
+            "edgeType": "hallway"
+        },
+        {
+            "from": "StairsDown21D",
+            "to": "Room2104",
+            "distance": 10.0,
+            "waitTime": 0,
+            "closed": false,
+            "crowded": 0.0,
+            "accessible": true,
+            "edgeType": "hallway"
+        },
+        {
+            "from": "StairsDown21D",
+            "to": "Room2105",
+            "distance": 18.0,
+            "waitTime": 0,
+            "closed": false,
+            "crowded": 0.0,
+            "accessible": true,
+            "edgeType": "hallway"
+        },
+        {
+            "from": "StairsSpiral21A",
+            "to": "Room2101",
+            "distance": 10.0,
+            "waitTime": 0,
+            "closed": false,
+            "crowded": 0.0,
+            "accessible": true,
+            "edgeType": "hallway"
+        },
+        {
+            "from": "StairsSpiral21A",
+            "to": "Room2102",
+            "distance": 15.0,
+            "waitTime": 0,
+            "closed": false,
+            "crowded": 0.0,
+            "accessible": true,
+            "edgeType": "hallway"
+        },
+        {
+            "from": "StairsSpiral21A",
+            "to": "Room2103",
+            "distance": 23.0,
+            "waitTime": 0,
+            "closed": false,
+            "crowded": 0.0,
+            "accessible": true,
+            "edgeType": "hallway"
+        },
+        {
+            "from": "StairsSpiral21A",
+            "to": "Room2104",
+            "distance": 26.0,
+            "waitTime": 0,
+            "closed": false,
+            "crowded": 0.0,
+            "accessible": true,
+            "edgeType": "hallway"
+        },
+        {
+            "from": "StairsSpiral21A",
+            "to": "Room2105",
+            "distance": 16.0,
+            "waitTime": 0,
+            "closed": false,
+            "crowded": 0.0,
+            "accessible": true,
+            "edgeType": "hallway"
+        },
+        {
+            "from": "StairsSpiral21B",
+            "to": "Room2101",
+            "distance": 23.0,
+            "waitTime": 0,
+            "closed": false,
+            "crowded": 0.0,
+            "accessible": true,
+            "edgeType": "hallway"
+        },
+        {
+            "from": "StairsSpiral21B",
+            "to": "Room2102",
+            "distance": 15.0,
+            "waitTime": 0,
+            "closed": false,
+            "crowded": 0.0,
+            "accessible": true,
+            "edgeType": "hallway"
+        },
+        {
+            "from": "StairsSpiral21B",
+            "to": "Room2103",
+            "distance": 10.0,
+            "waitTime": 0,
+            "closed": false,
+            "crowded": 0.0,
+            "accessible": true,
+            "edgeType": "hallway"
+        },
+        {
+            "from": "StairsSpiral21B",
+            "to": "Room2104",
+            "distance": 16.0,
+            "waitTime": 0,
+            "closed": false,
+            "crowded": 0.0,
+            "accessible": true,
+            "edgeType": "hallway"
+        },
+        {
+            "from": "StairsSpiral21B",
+            "to": "Room2105",
+            "distance": 26.0,
+            "waitTime": 0,
+            "closed": false,
+            "crowded": 0.0,
+            "accessible": true,
+            "edgeType": "hallway"
+        },
+        {
+            "from": "Elevator21",
+            "to": "Room2101",
+            "distance": 18.0,
+            "waitTime": 0,
+            "closed": false,
+            "crowded": 0.0,
+            "accessible": true,
+            "edgeType": "hallway"
+        },
+        {
+            "from": "Elevator21",
+            "to": "Room2102",
+            "distance": 10.0,
+            "waitTime": 0,
+            "closed": false,
+            "crowded": 0.0,
+            "accessible": true,
+            "edgeType": "hallway"
+        },
+        {
+            "from": "Elevator21",
+            "to": "Room2103",
+            "distance": 5.0,
+            "waitTime": 0,
+            "closed": false,
+            "crowded": 0.0,
+            "accessible": true,
+            "edgeType": "hallway"
+        },
+        {
+            "from": "Elevator21",
+            "to": "Room2104",
+            "distance": 11.0,
+            "waitTime": 0,
+            "closed": false,
+            "crowded": 0.0,
+            "accessible": true,
+            "edgeType": "hallway"
+        },
+        {
+            "from": "Elevator21",
+            "to": "Room2105",
+            "distance": 21.0,
+            "waitTime": 0,
+            "closed": false,
+            "crowded": 0.0,
+            "accessible": true,
+            "edgeType": "hallway"
+        },
+        {
+            "from": "EscalatorUp22",
+            "to": "Room2201",
+            "distance": 12.0,
+            "waitTime": 0,
+            "closed": false,
+            "crowded": 0.0,
+            "accessible": true,
+            "edgeType": "hallway"
+        },
+        {
+            "from": "EscalatorUp22",
+            "to": "Room2202",
+            "distance": 5.0,
+            "waitTime": 0,
+            "closed": false,
+            "crowded": 0.0,
+            "accessible": true,
+            "edgeType": "hallway"
+        },
+        {
+            "from": "EscalatorUp22",
+            "to": "Room2203",
+            "distance": 3.0,
+            "waitTime": 0,
+            "closed": false,
+            "crowded": 0.0,
+            "accessible": true,
+            "edgeType": "hallway"
+        },
+        {
+            "from": "EscalatorUp22",
+            "to": "Room2204",
+            "distance": 6.0,
+            "waitTime": 0,
+            "closed": false,
+            "crowded": 0.0,
+            "accessible": true,
+            "edgeType": "hallway"
+        },
+        {
+            "from": "EscalatorUp22",
+            "to": "Room2205",
+            "distance": 18.0,
+            "waitTime": 0,
+            "closed": false,
+            "crowded": 0.0,
+            "accessible": true,
+            "edgeType": "hallway"
+        },
+        {
+            "from": "EscalatorDown22",
+            "to": "Room2201",
+            "distance": 6.0,
+            "waitTime": 0,
+            "closed": false,
+            "crowded": 0.0,
+            "accessible": true,
+            "edgeType": "hallway"
+        },
+        {
+            "from": "EscalatorDown22",
+            "to": "Room2202",
+            "distance": 6.0,
+            "waitTime": 0,
+            "closed": false,
+            "crowded": 0.0,
+            "accessible": true,
+            "edgeType": "hallway"
+        },
+        {
+            "from": "EscalatorDown22",
+            "to": "Room2203",
+            "distance": 18.0,
+            "waitTime": 0,
+            "closed": false,
+            "crowded": 0.0,
+            "accessible": true,
+            "edgeType": "hallway"
+        },
+        {
+            "from": "EscalatorDown22",
+            "to": "Room2204",
+            "distance": 15.0,
+            "waitTime": 0,
+            "closed": false,
+            "crowded": 0.0,
+            "accessible": true,
+            "edgeType": "hallway"
+        },
+        {
+            "from": "EscalatorDown22",
+            "to": "Room2205",
+            "distance": 3.0,
+            "waitTime": 0,
+            "closed": false,
+            "crowded": 0.0,
+            "accessible": true,
+            "edgeType": "hallway"
+        },
+        {
+            "from": "StairsUp22D",
+            "to": "Room2201",
+            "distance": 17.0,
+            "waitTime": 0,
+            "closed": false,
+            "crowded": 0.0,
+            "accessible": true,
+            "edgeType": "hallway"
+        },
+        {
+            "from": "StairsUp22D",
+            "to": "Room2202",
+            "distance": 19.0,
+            "waitTime": 0,
+            "closed": false,
+            "crowded": 0.0,
+            "accessible": true,
+            "edgeType": "hallway"
+        },
+        {
+            "from": "StairsUp22D",
+            "to": "Room2203",
+            "distance": 27.0,
+            "waitTime": 0,
+            "closed": false,
+            "crowded": 0.0,
+            "accessible": true,
+            "edgeType": "hallway"
+        },
+        {
+            "from": "StairsUp22D",
+            "to": "Room2204",
+            "distance": 18.0,
+            "waitTime": 0,
+            "closed": false,
+            "crowded": 0.0,
+            "accessible": true,
+            "edgeType": "hallway"
+        },
+        {
+            "from": "StairsUp22D",
+            "to": "Room2205",
+            "distance": 10.0,
+            "waitTime": 0,
+            "closed": false,
+            "crowded": 0.0,
+            "accessible": true,
+            "edgeType": "hallway"
+        },
+        {
+            "from": "StairsDown22D",
+            "to": "Room2201",
+            "distance": 27.0,
+            "waitTime": 0,
+            "closed": false,
+            "crowded": 0.0,
+            "accessible": true,
+            "edgeType": "hallway"
+        },
+        {
+            "from": "StairsDown22D",
+            "to": "Room2202",
+            "distance": 19.0,
+            "waitTime": 0,
+            "closed": false,
+            "crowded": 0.0,
+            "accessible": true,
+            "edgeType": "hallway"
+        },
+        {
+            "from": "StairsDown22D",
+            "to": "Room2203",
+            "distance": 17.0,
+            "waitTime": 0,
+            "closed": false,
+            "crowded": 0.0,
+            "accessible": true,
+            "edgeType": "hallway"
+        },
+        {
+            "from": "StairsDown22D",
+            "to": "Room2204",
+            "distance": 10.0,
+            "waitTime": 0,
+            "closed": false,
+            "crowded": 0.0,
+            "accessible": true,
+            "edgeType": "hallway"
+        },
+        {
+            "from": "StairsDown22D",
+            "to": "Room2205",
+            "distance": 18.0,
+            "waitTime": 0,
+            "closed": false,
+            "crowded": 0.0,
+            "accessible": true,
+            "edgeType": "hallway"
+        },
+        {
+            "from": "StairsSpiral22A",
+            "to": "Room2201",
+            "distance": 10.0,
+            "waitTime": 0,
+            "closed": false,
+            "crowded": 0.0,
+            "accessible": true,
+            "edgeType": "hallway"
+        },
+        {
+            "from": "StairsSpiral22A",
+            "to": "Room2202",
+            "distance": 15.0,
+            "waitTime": 0,
+            "closed": false,
+            "crowded": 0.0,
+            "accessible": true,
+            "edgeType": "hallway"
+        },
+        {
+            "from": "StairsSpiral22A",
+            "to": "Room2203",
+            "distance": 23.0,
+            "waitTime": 0,
+            "closed": false,
+            "crowded": 0.0,
+            "accessible": true,
+            "edgeType": "hallway"
+        },
+        {
+            "from": "StairsSpiral22A",
+            "to": "Room2204",
+            "distance": 26.0,
+            "waitTime": 0,
+            "closed": false,
+            "crowded": 0.0,
+            "accessible": true,
+            "edgeType": "hallway"
+        },
+        {
+            "from": "StairsSpiral22A",
+            "to": "Room2205",
+            "distance": 16.0,
+            "waitTime": 0,
+            "closed": false,
+            "crowded": 0.0,
+            "accessible": true,
+            "edgeType": "hallway"
+        },
+        {
+            "from": "StairsSpiral22B",
+            "to": "Room2201",
+            "distance": 23.0,
+            "waitTime": 0,
+            "closed": false,
+            "crowded": 0.0,
+            "accessible": true,
+            "edgeType": "hallway"
+        },
+        {
+            "from": "StairsSpiral22B",
+            "to": "Room2202",
+            "distance": 15.0,
+            "waitTime": 0,
+            "closed": false,
+            "crowded": 0.0,
+            "accessible": true,
+            "edgeType": "hallway"
+        },
+        {
+            "from": "StairsSpiral22B",
+            "to": "Room2203",
+            "distance": 10.0,
+            "waitTime": 0,
+            "closed": false,
+            "crowded": 0.0,
+            "accessible": true,
+            "edgeType": "hallway"
+        },
+        {
+            "from": "StairsSpiral22B",
+            "to": "Room2204",
+            "distance": 16.0,
+            "waitTime": 0,
+            "closed": false,
+            "crowded": 0.0,
+            "accessible": true,
+            "edgeType": "hallway"
+        },
+        {
+            "from": "StairsSpiral22B",
+            "to": "Room2205",
+            "distance": 26.0,
+            "waitTime": 0,
+            "closed": false,
+            "crowded": 0.0,
+            "accessible": true,
+            "edgeType": "hallway"
+        },
+        {
+            "from": "Elevator22",
+            "to": "Room2201",
+            "distance": 18.0,
+            "waitTime": 0,
+            "closed": false,
+            "crowded": 0.0,
+            "accessible": true,
+            "edgeType": "hallway"
+        },
+        {
+            "from": "Elevator22",
+            "to": "Room2202",
+            "distance": 10.0,
+            "waitTime": 0,
+            "closed": false,
+            "crowded": 0.0,
+            "accessible": true,
+            "edgeType": "hallway"
+        },
+        {
+            "from": "Elevator22",
+            "to": "Room2203",
+            "distance": 5.0,
+            "waitTime": 0,
+            "closed": false,
+            "crowded": 0.0,
+            "accessible": true,
+            "edgeType": "hallway"
+        },
+        {
+            "from": "Elevator22",
+            "to": "Room2204",
+            "distance": 11.0,
+            "waitTime": 0,
+            "closed": false,
+            "crowded": 0.0,
+            "accessible": true,
+            "edgeType": "hallway"
+        },
+        {
+            "from": "Elevator22",
+            "to": "Room2205",
+            "distance": 21.0,
+            "waitTime": 0,
+            "closed": false,
+            "crowded": 0.0,
+            "accessible": true,
+            "edgeType": "hallway"
+        },
+        {
+            "from": "EscalatorUp23",
+            "to": "Room2301",
+            "distance": 12.0,
+            "waitTime": 0,
+            "closed": false,
+            "crowded": 0.0,
+            "accessible": true,
+            "edgeType": "hallway"
+        },
+        {
+            "from": "EscalatorUp23",
+            "to": "Room2302",
+            "distance": 5.0,
+            "waitTime": 0,
+            "closed": false,
+            "crowded": 0.0,
+            "accessible": true,
+            "edgeType": "hallway"
+        },
+        {
+            "from": "EscalatorUp23",
+            "to": "Room2303",
+            "distance": 3.0,
+            "waitTime": 0,
+            "closed": false,
+            "crowded": 0.0,
+            "accessible": true,
+            "edgeType": "hallway"
+        },
+        {
+            "from": "EscalatorUp23",
+            "to": "Room2304",
+            "distance": 6.0,
+            "waitTime": 0,
+            "closed": false,
+            "crowded": 0.0,
+            "accessible": true,
+            "edgeType": "hallway"
+        },
+        {
+            "from": "EscalatorUp23",
+            "to": "Room2305",
+            "distance": 18.0,
+            "waitTime": 0,
+            "closed": false,
+            "crowded": 0.0,
+            "accessible": true,
+            "edgeType": "hallway"
+        },
+        {
+            "from": "EscalatorDown23",
+            "to": "Room2301",
+            "distance": 6.0,
+            "waitTime": 0,
+            "closed": false,
+            "crowded": 0.0,
+            "accessible": true,
+            "edgeType": "hallway"
+        },
+        {
+            "from": "EscalatorDown23",
+            "to": "Room2302",
+            "distance": 6.0,
+            "waitTime": 0,
+            "closed": false,
+            "crowded": 0.0,
+            "accessible": true,
+            "edgeType": "hallway"
+        },
+        {
+            "from": "EscalatorDown23",
+            "to": "Room2303",
+            "distance": 18.0,
+            "waitTime": 0,
+            "closed": false,
+            "crowded": 0.0,
+            "accessible": true,
+            "edgeType": "hallway"
+        },
+        {
+            "from": "EscalatorDown23",
+            "to": "Room2304",
+            "distance": 15.0,
+            "waitTime": 0,
+            "closed": false,
+            "crowded": 0.0,
+            "accessible": true,
+            "edgeType": "hallway"
+        },
+        {
+            "from": "EscalatorDown23",
+            "to": "Room2305",
+            "distance": 3.0,
+            "waitTime": 0,
+            "closed": false,
+            "crowded": 0.0,
+            "accessible": true,
+            "edgeType": "hallway"
+        },
+        {
+            "from": "StairsUp23D",
+            "to": "Room2301",
+            "distance": 17.0,
+            "waitTime": 0,
+            "closed": false,
+            "crowded": 0.0,
+            "accessible": true,
+            "edgeType": "hallway"
+        },
+        {
+            "from": "StairsUp23D",
+            "to": "Room2302",
+            "distance": 19.0,
+            "waitTime": 0,
+            "closed": false,
+            "crowded": 0.0,
+            "accessible": true,
+            "edgeType": "hallway"
+        },
+        {
+            "from": "StairsUp23D",
+            "to": "Room2303",
+            "distance": 27.0,
+            "waitTime": 0,
+            "closed": false,
+            "crowded": 0.0,
+            "accessible": true,
+            "edgeType": "hallway"
+        },
+        {
+            "from": "StairsUp23D",
+            "to": "Room2304",
+            "distance": 18.0,
+            "waitTime": 0,
+            "closed": false,
+            "crowded": 0.0,
+            "accessible": true,
+            "edgeType": "hallway"
+        },
+        {
+            "from": "StairsUp23D",
+            "to": "Room2305",
+            "distance": 10.0,
+            "waitTime": 0,
+            "closed": false,
+            "crowded": 0.0,
+            "accessible": true,
+            "edgeType": "hallway"
+        },
+        {
+            "from": "StairsDown23D",
+            "to": "Room2301",
+            "distance": 27.0,
+            "waitTime": 0,
+            "closed": false,
+            "crowded": 0.0,
+            "accessible": true,
+            "edgeType": "hallway"
+        },
+        {
+            "from": "StairsDown23D",
+            "to": "Room2302",
+            "distance": 19.0,
+            "waitTime": 0,
+            "closed": false,
+            "crowded": 0.0,
+            "accessible": true,
+            "edgeType": "hallway"
+        },
+        {
+            "from": "StairsDown23D",
+            "to": "Room2303",
+            "distance": 17.0,
+            "waitTime": 0,
+            "closed": false,
+            "crowded": 0.0,
+            "accessible": true,
+            "edgeType": "hallway"
+        },
+        {
+            "from": "StairsDown23D",
+            "to": "Room2304",
+            "distance": 10.0,
+            "waitTime": 0,
+            "closed": false,
+            "crowded": 0.0,
+            "accessible": true,
+            "edgeType": "hallway"
+        },
+        {
+            "from": "StairsDown23D",
+            "to": "Room2305",
+            "distance": 18.0,
+            "waitTime": 0,
+            "closed": false,
+            "crowded": 0.0,
+            "accessible": true,
+            "edgeType": "hallway"
+        },
+        {
+            "from": "StairsSpiral23A",
+            "to": "Room2301",
+            "distance": 10.0,
+            "waitTime": 0,
+            "closed": false,
+            "crowded": 0.0,
+            "accessible": true,
+            "edgeType": "hallway"
+        },
+        {
+            "from": "StairsSpiral23A",
+            "to": "Room2302",
+            "distance": 15.0,
+            "waitTime": 0,
+            "closed": false,
+            "crowded": 0.0,
+            "accessible": true,
+            "edgeType": "hallway"
+        },
+        {
+            "from": "StairsSpiral23A",
+            "to": "Room2303",
+            "distance": 23.0,
+            "waitTime": 0,
+            "closed": false,
+            "crowded": 0.0,
+            "accessible": true,
+            "edgeType": "hallway"
+        },
+        {
+            "from": "StairsSpiral23A",
+            "to": "Room2304",
+            "distance": 26.0,
+            "waitTime": 0,
+            "closed": false,
+            "crowded": 0.0,
+            "accessible": true,
+            "edgeType": "hallway"
+        },
+        {
+            "from": "StairsSpiral23A",
+            "to": "Room2305",
+            "distance": 16.0,
+            "waitTime": 0,
+            "closed": false,
+            "crowded": 0.0,
+            "accessible": true,
+            "edgeType": "hallway"
+        },
+        {
+            "from": "StairsSpiral23B",
+            "to": "Room2301",
+            "distance": 23.0,
+            "waitTime": 0,
+            "closed": false,
+            "crowded": 0.0,
+            "accessible": true,
+            "edgeType": "hallway"
+        },
+        {
+            "from": "StairsSpiral23B",
+            "to": "Room2302",
+            "distance": 15.0,
+            "waitTime": 0,
+            "closed": false,
+            "crowded": 0.0,
+            "accessible": true,
+            "edgeType": "hallway"
+        },
+        {
+            "from": "StairsSpiral23B",
+            "to": "Room2303",
+            "distance": 10.0,
+            "waitTime": 0,
+            "closed": false,
+            "crowded": 0.0,
+            "accessible": true,
+            "edgeType": "hallway"
+        },
+        {
+            "from": "StairsSpiral23B",
+            "to": "Room2304",
+            "distance": 16.0,
+            "waitTime": 0,
+            "closed": false,
+            "crowded": 0.0,
+            "accessible": true,
+            "edgeType": "hallway"
+        },
+        {
+            "from": "StairsSpiral23B",
+            "to": "Room2305",
+            "distance": 26.0,
+            "waitTime": 0,
+            "closed": false,
+            "crowded": 0.0,
+            "accessible": true,
+            "edgeType": "hallway"
+        },
+        {
+            "from": "Elevator23",
+            "to": "Room2301",
+            "distance": 18.0,
+            "waitTime": 0,
+            "closed": false,
+            "crowded": 0.0,
+            "accessible": true,
+            "edgeType": "hallway"
+        },
+        {
+            "from": "Elevator23",
+            "to": "Room2302",
+            "distance": 10.0,
+            "waitTime": 0,
+            "closed": false,
+            "crowded": 0.0,
+            "accessible": true,
+            "edgeType": "hallway"
+        },
+        {
+            "from": "Elevator23",
+            "to": "Room2303",
+            "distance": 5.0,
+            "waitTime": 0,
+            "closed": false,
+            "crowded": 0.0,
+            "accessible": true,
+            "edgeType": "hallway"
+        },
+        {
+            "from": "Elevator23",
+            "to": "Room2304",
+            "distance": 11.0,
+            "waitTime": 0,
+            "closed": false,
+            "crowded": 0.0,
+            "accessible": true,
+            "edgeType": "hallway"
+        },
+        {
+            "from": "Elevator23",
+            "to": "Room2305",
+            "distance": 21.0,
+            "waitTime": 0,
+            "closed": false,
+            "crowded": 0.0,
+            "accessible": true,
+            "edgeType": "hallway"
+        },
+        {
+            "from": "EscalatorUp24",
+            "to": "Room2401",
+            "distance": 12.0,
+            "waitTime": 0,
+            "closed": false,
+            "crowded": 0.0,
+            "accessible": true,
+            "edgeType": "hallway"
+        },
+        {
+            "from": "EscalatorUp24",
+            "to": "Room2402",
+            "distance": 5.0,
+            "waitTime": 0,
+            "closed": false,
+            "crowded": 0.0,
+            "accessible": true,
+            "edgeType": "hallway"
+        },
+        {
+            "from": "EscalatorUp24",
+            "to": "Room2403",
+            "distance": 3.0,
+            "waitTime": 0,
+            "closed": false,
+            "crowded": 0.0,
+            "accessible": true,
+            "edgeType": "hallway"
+        },
+        {
+            "from": "EscalatorUp24",
+            "to": "Room2404",
+            "distance": 6.0,
+            "waitTime": 0,
+            "closed": false,
+            "crowded": 0.0,
+            "accessible": true,
+            "edgeType": "hallway"
+        },
+        {
+            "from": "EscalatorUp24",
+            "to": "Room2405",
+            "distance": 18.0,
+            "waitTime": 0,
+            "closed": false,
+            "crowded": 0.0,
+            "accessible": true,
+            "edgeType": "hallway"
+        },
+        {
+            "from": "EscalatorDown24",
+            "to": "Room2401",
+            "distance": 6.0,
+            "waitTime": 0,
+            "closed": false,
+            "crowded": 0.0,
+            "accessible": true,
+            "edgeType": "hallway"
+        },
+        {
+            "from": "EscalatorDown24",
+            "to": "Room2402",
+            "distance": 6.0,
+            "waitTime": 0,
+            "closed": false,
+            "crowded": 0.0,
+            "accessible": true,
+            "edgeType": "hallway"
+        },
+        {
+            "from": "EscalatorDown24",
+            "to": "Room2403",
+            "distance": 18.0,
+            "waitTime": 0,
+            "closed": false,
+            "crowded": 0.0,
+            "accessible": true,
+            "edgeType": "hallway"
+        },
+        {
+            "from": "EscalatorDown24",
+            "to": "Room2404",
+            "distance": 15.0,
+            "waitTime": 0,
+            "closed": false,
+            "crowded": 0.0,
+            "accessible": true,
+            "edgeType": "hallway"
+        },
+        {
+            "from": "EscalatorDown24",
+            "to": "Room2405",
+            "distance": 3.0,
+            "waitTime": 0,
+            "closed": false,
+            "crowded": 0.0,
+            "accessible": true,
+            "edgeType": "hallway"
+        },
+        {
+            "from": "StairsUp24D",
+            "to": "Room2401",
+            "distance": 17.0,
+            "waitTime": 0,
+            "closed": false,
+            "crowded": 0.0,
+            "accessible": true,
+            "edgeType": "hallway"
+        },
+        {
+            "from": "StairsUp24D",
+            "to": "Room2402",
+            "distance": 19.0,
+            "waitTime": 0,
+            "closed": false,
+            "crowded": 0.0,
+            "accessible": true,
+            "edgeType": "hallway"
+        },
+        {
+            "from": "StairsUp24D",
+            "to": "Room2403",
+            "distance": 27.0,
+            "waitTime": 0,
+            "closed": false,
+            "crowded": 0.0,
+            "accessible": true,
+            "edgeType": "hallway"
+        },
+        {
+            "from": "StairsUp24D",
+            "to": "Room2404",
+            "distance": 18.0,
+            "waitTime": 0,
+            "closed": false,
+            "crowded": 0.0,
+            "accessible": true,
+            "edgeType": "hallway"
+        },
+        {
+            "from": "StairsUp24D",
+            "to": "Room2405",
+            "distance": 10.0,
+            "waitTime": 0,
+            "closed": false,
+            "crowded": 0.0,
+            "accessible": true,
+            "edgeType": "hallway"
+        },
+        {
+            "from": "StairsDown24D",
+            "to": "Room2401",
+            "distance": 27.0,
+            "waitTime": 0,
+            "closed": false,
+            "crowded": 0.0,
+            "accessible": true,
+            "edgeType": "hallway"
+        },
+        {
+            "from": "StairsDown24D",
+            "to": "Room2402",
+            "distance": 19.0,
+            "waitTime": 0,
+            "closed": false,
+            "crowded": 0.0,
+            "accessible": true,
+            "edgeType": "hallway"
+        },
+        {
+            "from": "StairsDown24D",
+            "to": "Room2403",
+            "distance": 17.0,
+            "waitTime": 0,
+            "closed": false,
+            "crowded": 0.0,
+            "accessible": true,
+            "edgeType": "hallway"
+        },
+        {
+            "from": "StairsDown24D",
+            "to": "Room2404",
+            "distance": 10.0,
+            "waitTime": 0,
+            "closed": false,
+            "crowded": 0.0,
+            "accessible": true,
+            "edgeType": "hallway"
+        },
+        {
+            "from": "StairsDown24D",
+            "to": "Room2405",
+            "distance": 18.0,
+            "waitTime": 0,
+            "closed": false,
+            "crowded": 0.0,
+            "accessible": true,
+            "edgeType": "hallway"
+        },
+        {
+            "from": "StairsSpiral24A",
+            "to": "Room2401",
+            "distance": 10.0,
+            "waitTime": 0,
+            "closed": false,
+            "crowded": 0.0,
+            "accessible": true,
+            "edgeType": "hallway"
+        },
+        {
+            "from": "StairsSpiral24A",
+            "to": "Room2402",
+            "distance": 15.0,
+            "waitTime": 0,
+            "closed": false,
+            "crowded": 0.0,
+            "accessible": true,
+            "edgeType": "hallway"
+        },
+        {
+            "from": "StairsSpiral24A",
+            "to": "Room2403",
+            "distance": 23.0,
+            "waitTime": 0,
+            "closed": false,
+            "crowded": 0.0,
+            "accessible": true,
+            "edgeType": "hallway"
+        },
+        {
+            "from": "StairsSpiral24A",
+            "to": "Room2404",
+            "distance": 26.0,
+            "waitTime": 0,
+            "closed": false,
+            "crowded": 0.0,
+            "accessible": true,
+            "edgeType": "hallway"
+        },
+        {
+            "from": "StairsSpiral24A",
+            "to": "Room2405",
+            "distance": 16.0,
+            "waitTime": 0,
+            "closed": false,
+            "crowded": 0.0,
+            "accessible": true,
+            "edgeType": "hallway"
+        },
+        {
+            "from": "StairsSpiral24B",
+            "to": "Room2401",
+            "distance": 23.0,
+            "waitTime": 0,
+            "closed": false,
+            "crowded": 0.0,
+            "accessible": true,
+            "edgeType": "hallway"
+        },
+        {
+            "from": "StairsSpiral24B",
+            "to": "Room2402",
+            "distance": 15.0,
+            "waitTime": 0,
+            "closed": false,
+            "crowded": 0.0,
+            "accessible": true,
+            "edgeType": "hallway"
+        },
+        {
+            "from": "StairsSpiral24B",
+            "to": "Room2403",
+            "distance": 10.0,
+            "waitTime": 0,
+            "closed": false,
+            "crowded": 0.0,
+            "accessible": true,
+            "edgeType": "hallway"
+        },
+        {
+            "from": "StairsSpiral24B",
+            "to": "Room2404",
+            "distance": 16.0,
+            "waitTime": 0,
+            "closed": false,
+            "crowded": 0.0,
+            "accessible": true,
+            "edgeType": "hallway"
+        },
+        {
+            "from": "StairsSpiral24B",
+            "to": "Room2405",
+            "distance": 26.0,
+            "waitTime": 0,
+            "closed": false,
+            "crowded": 0.0,
+            "accessible": true,
+            "edgeType": "hallway"
+        },
+        {
+            "from": "Elevator24",
+            "to": "Room2401",
+            "distance": 18.0,
+            "waitTime": 0,
+            "closed": false,
+            "crowded": 0.0,
+            "accessible": true,
+            "edgeType": "hallway"
+        },
+        {
+            "from": "Elevator24",
+            "to": "Room2402",
+            "distance": 10.0,
+            "waitTime": 0,
+            "closed": false,
+            "crowded": 0.0,
+            "accessible": true,
+            "edgeType": "hallway"
+        },
+        {
+            "from": "Elevator24",
+            "to": "Room2403",
+            "distance": 5.0,
+            "waitTime": 0,
+            "closed": false,
+            "crowded": 0.0,
+            "accessible": true,
+            "edgeType": "hallway"
+        },
+        {
+            "from": "Elevator24",
+            "to": "Room2404",
+            "distance": 11.0,
+            "waitTime": 0,
+            "closed": false,
+            "crowded": 0.0,
+            "accessible": true,
+            "edgeType": "hallway"
+        },
+        {
+            "from": "Elevator24",
+            "to": "Room2405",
+            "distance": 21.0,
+            "waitTime": 0,
+            "closed": false,
+            "crowded": 0.0,
+            "accessible": true,
+            "edgeType": "hallway"
+        },
+        {
+            "from": "EscalatorUp25",
+            "to": "Room2501",
+            "distance": 12.0,
+            "waitTime": 0,
+            "closed": false,
+            "crowded": 0.0,
+            "accessible": true,
+            "edgeType": "hallway"
+        },
+        {
+            "from": "EscalatorUp25",
+            "to": "Room2502",
+            "distance": 5.0,
+            "waitTime": 0,
+            "closed": false,
+            "crowded": 0.0,
+            "accessible": true,
+            "edgeType": "hallway"
+        },
+        {
+            "from": "EscalatorUp25",
+            "to": "Room2503",
+            "distance": 3.0,
+            "waitTime": 0,
+            "closed": false,
+            "crowded": 0.0,
+            "accessible": true,
+            "edgeType": "hallway"
+        },
+        {
+            "from": "EscalatorUp25",
+            "to": "Room2504",
+            "distance": 6.0,
+            "waitTime": 0,
+            "closed": false,
+            "crowded": 0.0,
+            "accessible": true,
+            "edgeType": "hallway"
+        },
+        {
+            "from": "EscalatorUp25",
+            "to": "Room2505",
+            "distance": 18.0,
+            "waitTime": 0,
+            "closed": false,
+            "crowded": 0.0,
+            "accessible": true,
+            "edgeType": "hallway"
+        },
+        {
+            "from": "EscalatorDown25",
+            "to": "Room2501",
+            "distance": 6.0,
+            "waitTime": 0,
+            "closed": false,
+            "crowded": 0.0,
+            "accessible": true,
+            "edgeType": "hallway"
+        },
+        {
+            "from": "EscalatorDown25",
+            "to": "Room2502",
+            "distance": 6.0,
+            "waitTime": 0,
+            "closed": false,
+            "crowded": 0.0,
+            "accessible": true,
+            "edgeType": "hallway"
+        },
+        {
+            "from": "EscalatorDown25",
+            "to": "Room2503",
+            "distance": 18.0,
+            "waitTime": 0,
+            "closed": false,
+            "crowded": 0.0,
+            "accessible": true,
+            "edgeType": "hallway"
+        },
+        {
+            "from": "EscalatorDown25",
+            "to": "Room2504",
+            "distance": 15.0,
+            "waitTime": 0,
+            "closed": false,
+            "crowded": 0.0,
+            "accessible": true,
+            "edgeType": "hallway"
+        },
+        {
+            "from": "EscalatorDown25",
+            "to": "Room2505",
+            "distance": 3.0,
+            "waitTime": 0,
+            "closed": false,
+            "crowded": 0.0,
+            "accessible": true,
+            "edgeType": "hallway"
+        },
+        {
+            "from": "StairsUp25D",
+            "to": "Room2501",
+            "distance": 17.0,
+            "waitTime": 0,
+            "closed": false,
+            "crowded": 0.0,
+            "accessible": true,
+            "edgeType": "hallway"
+        },
+        {
+            "from": "StairsUp25D",
+            "to": "Room2502",
+            "distance": 19.0,
+            "waitTime": 0,
+            "closed": false,
+            "crowded": 0.0,
+            "accessible": true,
+            "edgeType": "hallway"
+        },
+        {
+            "from": "StairsUp25D",
+            "to": "Room2503",
+            "distance": 27.0,
+            "waitTime": 0,
+            "closed": false,
+            "crowded": 0.0,
+            "accessible": true,
+            "edgeType": "hallway"
+        },
+        {
+            "from": "StairsUp25D",
+            "to": "Room2504",
+            "distance": 18.0,
+            "waitTime": 0,
+            "closed": false,
+            "crowded": 0.0,
+            "accessible": true,
+            "edgeType": "hallway"
+        },
+        {
+            "from": "StairsUp25D",
+            "to": "Room2505",
+            "distance": 10.0,
+            "waitTime": 0,
+            "closed": false,
+            "crowded": 0.0,
+            "accessible": true,
+            "edgeType": "hallway"
+        },
+        {
+            "from": "StairsDown25D",
+            "to": "Room2501",
+            "distance": 27.0,
+            "waitTime": 0,
+            "closed": false,
+            "crowded": 0.0,
+            "accessible": true,
+            "edgeType": "hallway"
+        },
+        {
+            "from": "StairsDown25D",
+            "to": "Room2502",
+            "distance": 19.0,
+            "waitTime": 0,
+            "closed": false,
+            "crowded": 0.0,
+            "accessible": true,
+            "edgeType": "hallway"
+        },
+        {
+            "from": "StairsDown25D",
+            "to": "Room2503",
+            "distance": 17.0,
+            "waitTime": 0,
+            "closed": false,
+            "crowded": 0.0,
+            "accessible": true,
+            "edgeType": "hallway"
+        },
+        {
+            "from": "StairsDown25D",
+            "to": "Room2504",
+            "distance": 10.0,
+            "waitTime": 0,
+            "closed": false,
+            "crowded": 0.0,
+            "accessible": true,
+            "edgeType": "hallway"
+        },
+        {
+            "from": "StairsDown25D",
+            "to": "Room2505",
+            "distance": 18.0,
+            "waitTime": 0,
+            "closed": false,
+            "crowded": 0.0,
+            "accessible": true,
+            "edgeType": "hallway"
+        },
+        {
+            "from": "StairsSpiral25A",
+            "to": "Room2501",
+            "distance": 10.0,
+            "waitTime": 0,
+            "closed": false,
+            "crowded": 0.0,
+            "accessible": true,
+            "edgeType": "hallway"
+        },
+        {
+            "from": "StairsSpiral25A",
+            "to": "Room2502",
+            "distance": 15.0,
+            "waitTime": 0,
+            "closed": false,
+            "crowded": 0.0,
+            "accessible": true,
+            "edgeType": "hallway"
+        },
+        {
+            "from": "StairsSpiral25A",
+            "to": "Room2503",
+            "distance": 23.0,
+            "waitTime": 0,
+            "closed": false,
+            "crowded": 0.0,
+            "accessible": true,
+            "edgeType": "hallway"
+        },
+        {
+            "from": "StairsSpiral25A",
+            "to": "Room2504",
+            "distance": 26.0,
+            "waitTime": 0,
+            "closed": false,
+            "crowded": 0.0,
+            "accessible": true,
+            "edgeType": "hallway"
+        },
+        {
+            "from": "StairsSpiral25A",
+            "to": "Room2505",
+            "distance": 16.0,
+            "waitTime": 0,
+            "closed": false,
+            "crowded": 0.0,
+            "accessible": true,
+            "edgeType": "hallway"
+        },
+        {
+            "from": "StairsSpiral25B",
+            "to": "Room2501",
+            "distance": 23.0,
+            "waitTime": 0,
+            "closed": false,
+            "crowded": 0.0,
+            "accessible": true,
+            "edgeType": "hallway"
+        },
+        {
+            "from": "StairsSpiral25B",
+            "to": "Room2502",
+            "distance": 15.0,
+            "waitTime": 0,
+            "closed": false,
+            "crowded": 0.0,
+            "accessible": true,
+            "edgeType": "hallway"
+        },
+        {
+            "from": "StairsSpiral25B",
+            "to": "Room2503",
+            "distance": 10.0,
+            "waitTime": 0,
+            "closed": false,
+            "crowded": 0.0,
+            "accessible": true,
+            "edgeType": "hallway"
+        },
+        {
+            "from": "StairsSpiral25B",
+            "to": "Room2504",
+            "distance": 16.0,
+            "waitTime": 0,
+            "closed": false,
+            "crowded": 0.0,
+            "accessible": true,
+            "edgeType": "hallway"
+        },
+        {
+            "from": "StairsSpiral25B",
+            "to": "Room2505",
+            "distance": 26.0,
+            "waitTime": 0,
+            "closed": false,
+            "crowded": 0.0,
+            "accessible": true,
+            "edgeType": "hallway"
+        },
+        {
+            "from": "Elevator25",
+            "to": "Room2501",
+            "distance": 18.0,
+            "waitTime": 0,
+            "closed": false,
+            "crowded": 0.0,
+            "accessible": true,
+            "edgeType": "hallway"
+        },
+        {
+            "from": "Elevator25",
+            "to": "Room2502",
+            "distance": 10.0,
+            "waitTime": 0,
+            "closed": false,
+            "crowded": 0.0,
+            "accessible": true,
+            "edgeType": "hallway"
+        },
+        {
+            "from": "Elevator25",
+            "to": "Room2503",
+            "distance": 5.0,
+            "waitTime": 0,
+            "closed": false,
+            "crowded": 0.0,
+            "accessible": true,
+            "edgeType": "hallway"
+        },
+        {
+            "from": "Elevator25",
+            "to": "Room2504",
+            "distance": 11.0,
+            "waitTime": 0,
+            "closed": false,
+            "crowded": 0.0,
+            "accessible": true,
+            "edgeType": "hallway"
+        },
+        {
+            "from": "Elevator25",
+            "to": "Room2505",
+            "distance": 21.0,
+            "waitTime": 0,
+            "closed": false,
+            "crowded": 0.0,
+            "accessible": true,
+            "edgeType": "hallway"
+        },
+        {
+            "from": "EscalatorUp26",
+            "to": "Room2601",
+            "distance": 12.0,
+            "waitTime": 0,
+            "closed": false,
+            "crowded": 0.0,
+            "accessible": true,
+            "edgeType": "hallway"
+        },
+        {
+            "from": "EscalatorUp26",
+            "to": "Room2602",
+            "distance": 5.0,
+            "waitTime": 0,
+            "closed": false,
+            "crowded": 0.0,
+            "accessible": true,
+            "edgeType": "hallway"
+        },
+        {
+            "from": "EscalatorUp26",
+            "to": "Room2603",
+            "distance": 3.0,
+            "waitTime": 0,
+            "closed": false,
+            "crowded": 0.0,
+            "accessible": true,
+            "edgeType": "hallway"
+        },
+        {
+            "from": "EscalatorUp26",
+            "to": "Room2604",
+            "distance": 6.0,
+            "waitTime": 0,
+            "closed": false,
+            "crowded": 0.0,
+            "accessible": true,
+            "edgeType": "hallway"
+        },
+        {
+            "from": "EscalatorUp26",
+            "to": "Room2605",
+            "distance": 18.0,
+            "waitTime": 0,
+            "closed": false,
+            "crowded": 0.0,
+            "accessible": true,
+            "edgeType": "hallway"
+        },
+        {
+            "from": "EscalatorDown26",
+            "to": "Room2601",
+            "distance": 6.0,
+            "waitTime": 0,
+            "closed": false,
+            "crowded": 0.0,
+            "accessible": true,
+            "edgeType": "hallway"
+        },
+        {
+            "from": "EscalatorDown26",
+            "to": "Room2602",
+            "distance": 6.0,
+            "waitTime": 0,
+            "closed": false,
+            "crowded": 0.0,
+            "accessible": true,
+            "edgeType": "hallway"
+        },
+        {
+            "from": "EscalatorDown26",
+            "to": "Room2603",
+            "distance": 18.0,
+            "waitTime": 0,
+            "closed": false,
+            "crowded": 0.0,
+            "accessible": true,
+            "edgeType": "hallway"
+        },
+        {
+            "from": "EscalatorDown26",
+            "to": "Room2604",
+            "distance": 15.0,
+            "waitTime": 0,
+            "closed": false,
+            "crowded": 0.0,
+            "accessible": true,
+            "edgeType": "hallway"
+        },
+        {
+            "from": "EscalatorDown26",
+            "to": "Room2605",
+            "distance": 3.0,
+            "waitTime": 0,
+            "closed": false,
+            "crowded": 0.0,
+            "accessible": true,
+            "edgeType": "hallway"
+        },
+        {
+            "from": "StairsUp26D",
+            "to": "Room2601",
+            "distance": 17.0,
+            "waitTime": 0,
+            "closed": false,
+            "crowded": 0.0,
+            "accessible": true,
+            "edgeType": "hallway"
+        },
+        {
+            "from": "StairsUp26D",
+            "to": "Room2602",
+            "distance": 19.0,
+            "waitTime": 0,
+            "closed": false,
+            "crowded": 0.0,
+            "accessible": true,
+            "edgeType": "hallway"
+        },
+        {
+            "from": "StairsUp26D",
+            "to": "Room2603",
+            "distance": 27.0,
+            "waitTime": 0,
+            "closed": false,
+            "crowded": 0.0,
+            "accessible": true,
+            "edgeType": "hallway"
+        },
+        {
+            "from": "StairsUp26D",
+            "to": "Room2604",
+            "distance": 18.0,
+            "waitTime": 0,
+            "closed": false,
+            "crowded": 0.0,
+            "accessible": true,
+            "edgeType": "hallway"
+        },
+        {
+            "from": "StairsUp26D",
+            "to": "Room2605",
+            "distance": 10.0,
+            "waitTime": 0,
+            "closed": false,
+            "crowded": 0.0,
+            "accessible": true,
+            "edgeType": "hallway"
+        },
+        {
+            "from": "StairsDown26D",
+            "to": "Room2601",
+            "distance": 27.0,
+            "waitTime": 0,
+            "closed": false,
+            "crowded": 0.0,
+            "accessible": true,
+            "edgeType": "hallway"
+        },
+        {
+            "from": "StairsDown26D",
+            "to": "Room2602",
+            "distance": 19.0,
+            "waitTime": 0,
+            "closed": false,
+            "crowded": 0.0,
+            "accessible": true,
+            "edgeType": "hallway"
+        },
+        {
+            "from": "StairsDown26D",
+            "to": "Room2603",
+            "distance": 17.0,
+            "waitTime": 0,
+            "closed": false,
+            "crowded": 0.0,
+            "accessible": true,
+            "edgeType": "hallway"
+        },
+        {
+            "from": "StairsDown26D",
+            "to": "Room2604",
+            "distance": 10.0,
+            "waitTime": 0,
+            "closed": false,
+            "crowded": 0.0,
+            "accessible": true,
+            "edgeType": "hallway"
+        },
+        {
+            "from": "StairsDown26D",
+            "to": "Room2605",
+            "distance": 18.0,
+            "waitTime": 0,
+            "closed": false,
+            "crowded": 0.0,
+            "accessible": true,
+            "edgeType": "hallway"
+        },
+        {
+            "from": "StairsSpiral26A",
+            "to": "Room2601",
+            "distance": 10.0,
+            "waitTime": 0,
+            "closed": false,
+            "crowded": 0.0,
+            "accessible": true,
+            "edgeType": "hallway"
+        },
+        {
+            "from": "StairsSpiral26A",
+            "to": "Room2602",
+            "distance": 15.0,
+            "waitTime": 0,
+            "closed": false,
+            "crowded": 0.0,
+            "accessible": true,
+            "edgeType": "hallway"
+        },
+        {
+            "from": "StairsSpiral26A",
+            "to": "Room2603",
+            "distance": 23.0,
+            "waitTime": 0,
+            "closed": false,
+            "crowded": 0.0,
+            "accessible": true,
+            "edgeType": "hallway"
+        },
+        {
+            "from": "StairsSpiral26A",
+            "to": "Room2604",
+            "distance": 26.0,
+            "waitTime": 0,
+            "closed": false,
+            "crowded": 0.0,
+            "accessible": true,
+            "edgeType": "hallway"
+        },
+        {
+            "from": "StairsSpiral26A",
+            "to": "Room2605",
+            "distance": 16.0,
+            "waitTime": 0,
+            "closed": false,
+            "crowded": 0.0,
+            "accessible": true,
+            "edgeType": "hallway"
+        },
+        {
+            "from": "StairsSpiral26B",
+            "to": "Room2601",
+            "distance": 23.0,
+            "waitTime": 0,
+            "closed": false,
+            "crowded": 0.0,
+            "accessible": true,
+            "edgeType": "hallway"
+        },
+        {
+            "from": "StairsSpiral26B",
+            "to": "Room2602",
+            "distance": 15.0,
+            "waitTime": 0,
+            "closed": false,
+            "crowded": 0.0,
+            "accessible": true,
+            "edgeType": "hallway"
+        },
+        {
+            "from": "StairsSpiral26B",
+            "to": "Room2603",
+            "distance": 10.0,
+            "waitTime": 0,
+            "closed": false,
+            "crowded": 0.0,
+            "accessible": true,
+            "edgeType": "hallway"
+        },
+        {
+            "from": "StairsSpiral26B",
+            "to": "Room2604",
+            "distance": 16.0,
+            "waitTime": 0,
+            "closed": false,
+            "crowded": 0.0,
+            "accessible": true,
+            "edgeType": "hallway"
+        },
+        {
+            "from": "StairsSpiral26B",
+            "to": "Room2605",
+            "distance": 26.0,
+            "waitTime": 0,
+            "closed": false,
+            "crowded": 0.0,
+            "accessible": true,
+            "edgeType": "hallway"
+        },
+        {
+            "from": "Elevator26",
+            "to": "Room2601",
+            "distance": 18.0,
+            "waitTime": 0,
+            "closed": false,
+            "crowded": 0.0,
+            "accessible": true,
+            "edgeType": "hallway"
+        },
+        {
+            "from": "Elevator26",
+            "to": "Room2602",
+            "distance": 10.0,
+            "waitTime": 0,
+            "closed": false,
+            "crowded": 0.0,
+            "accessible": true,
+            "edgeType": "hallway"
+        },
+        {
+            "from": "Elevator26",
+            "to": "Room2603",
+            "distance": 5.0,
+            "waitTime": 0,
+            "closed": false,
+            "crowded": 0.0,
+            "accessible": true,
+            "edgeType": "hallway"
+        },
+        {
+            "from": "Elevator26",
+            "to": "Room2604",
+            "distance": 11.0,
+            "waitTime": 0,
+            "closed": false,
+            "crowded": 0.0,
+            "accessible": true,
+            "edgeType": "hallway"
+        },
+        {
+            "from": "Elevator26",
+            "to": "Room2605",
+            "distance": 21.0,
+            "waitTime": 0,
+            "closed": false,
+            "crowded": 0.0,
+            "accessible": true,
+            "edgeType": "hallway"
+        },
+        {
+            "from": "EscalatorUp27",
+            "to": "Room2701",
+            "distance": 12.0,
+            "waitTime": 0,
+            "closed": false,
+            "crowded": 0.0,
+            "accessible": true,
+            "edgeType": "hallway"
+        },
+        {
+            "from": "EscalatorUp27",
+            "to": "Room2702",
+            "distance": 5.0,
+            "waitTime": 0,
+            "closed": false,
+            "crowded": 0.0,
+            "accessible": true,
+            "edgeType": "hallway"
+        },
+        {
+            "from": "EscalatorUp27",
+            "to": "Room2703",
+            "distance": 3.0,
+            "waitTime": 0,
+            "closed": false,
+            "crowded": 0.0,
+            "accessible": true,
+            "edgeType": "hallway"
+        },
+        {
+            "from": "EscalatorUp27",
+            "to": "Room2704",
+            "distance": 6.0,
+            "waitTime": 0,
+            "closed": false,
+            "crowded": 0.0,
+            "accessible": true,
+            "edgeType": "hallway"
+        },
+        {
+            "from": "EscalatorUp27",
+            "to": "Room2705",
+            "distance": 18.0,
+            "waitTime": 0,
+            "closed": false,
+            "crowded": 0.0,
+            "accessible": true,
+            "edgeType": "hallway"
+        },
+        {
+            "from": "EscalatorDown27",
+            "to": "Room2701",
+            "distance": 6.0,
+            "waitTime": 0,
+            "closed": false,
+            "crowded": 0.0,
+            "accessible": true,
+            "edgeType": "hallway"
+        },
+        {
+            "from": "EscalatorDown27",
+            "to": "Room2702",
+            "distance": 6.0,
+            "waitTime": 0,
+            "closed": false,
+            "crowded": 0.0,
+            "accessible": true,
+            "edgeType": "hallway"
+        },
+        {
+            "from": "EscalatorDown27",
+            "to": "Room2703",
+            "distance": 18.0,
+            "waitTime": 0,
+            "closed": false,
+            "crowded": 0.0,
+            "accessible": true,
+            "edgeType": "hallway"
+        },
+        {
+            "from": "EscalatorDown27",
+            "to": "Room2704",
+            "distance": 15.0,
+            "waitTime": 0,
+            "closed": false,
+            "crowded": 0.0,
+            "accessible": true,
+            "edgeType": "hallway"
+        },
+        {
+            "from": "EscalatorDown27",
+            "to": "Room2705",
+            "distance": 3.0,
+            "waitTime": 0,
+            "closed": false,
+            "crowded": 0.0,
+            "accessible": true,
+            "edgeType": "hallway"
+        },
+        {
+            "from": "StairsUp27D",
+            "to": "Room2701",
+            "distance": 17.0,
+            "waitTime": 0,
+            "closed": false,
+            "crowded": 0.0,
+            "accessible": true,
+            "edgeType": "hallway"
+        },
+        {
+            "from": "StairsUp27D",
+            "to": "Room2702",
+            "distance": 19.0,
+            "waitTime": 0,
+            "closed": false,
+            "crowded": 0.0,
+            "accessible": true,
+            "edgeType": "hallway"
+        },
+        {
+            "from": "StairsUp27D",
+            "to": "Room2703",
+            "distance": 27.0,
+            "waitTime": 0,
+            "closed": false,
+            "crowded": 0.0,
+            "accessible": true,
+            "edgeType": "hallway"
+        },
+        {
+            "from": "StairsUp27D",
+            "to": "Room2704",
+            "distance": 18.0,
+            "waitTime": 0,
+            "closed": false,
+            "crowded": 0.0,
+            "accessible": true,
+            "edgeType": "hallway"
+        },
+        {
+            "from": "StairsUp27D",
+            "to": "Room2705",
+            "distance": 10.0,
+            "waitTime": 0,
+            "closed": false,
+            "crowded": 0.0,
+            "accessible": true,
+            "edgeType": "hallway"
+        },
+        {
+            "from": "StairsDown27D",
+            "to": "Room2701",
+            "distance": 27.0,
+            "waitTime": 0,
+            "closed": false,
+            "crowded": 0.0,
+            "accessible": true,
+            "edgeType": "hallway"
+        },
+        {
+            "from": "StairsDown27D",
+            "to": "Room2702",
+            "distance": 19.0,
+            "waitTime": 0,
+            "closed": false,
+            "crowded": 0.0,
+            "accessible": true,
+            "edgeType": "hallway"
+        },
+        {
+            "from": "StairsDown27D",
+            "to": "Room2703",
+            "distance": 17.0,
+            "waitTime": 0,
+            "closed": false,
+            "crowded": 0.0,
+            "accessible": true,
+            "edgeType": "hallway"
+        },
+        {
+            "from": "StairsDown27D",
+            "to": "Room2704",
+            "distance": 10.0,
+            "waitTime": 0,
+            "closed": false,
+            "crowded": 0.0,
+            "accessible": true,
+            "edgeType": "hallway"
+        },
+        {
+            "from": "StairsDown27D",
+            "to": "Room2705",
+            "distance": 18.0,
+            "waitTime": 0,
+            "closed": false,
+            "crowded": 0.0,
+            "accessible": true,
+            "edgeType": "hallway"
+        },
+        {
+            "from": "StairsSpiral27A",
+            "to": "Room2701",
+            "distance": 10.0,
+            "waitTime": 0,
+            "closed": false,
+            "crowded": 0.0,
+            "accessible": true,
+            "edgeType": "hallway"
+        },
+        {
+            "from": "StairsSpiral27A",
+            "to": "Room2702",
+            "distance": 15.0,
+            "waitTime": 0,
+            "closed": false,
+            "crowded": 0.0,
+            "accessible": true,
+            "edgeType": "hallway"
+        },
+        {
+            "from": "StairsSpiral27A",
+            "to": "Room2703",
+            "distance": 23.0,
+            "waitTime": 0,
+            "closed": false,
+            "crowded": 0.0,
+            "accessible": true,
+            "edgeType": "hallway"
+        },
+        {
+            "from": "StairsSpiral27A",
+            "to": "Room2704",
+            "distance": 26.0,
+            "waitTime": 0,
+            "closed": false,
+            "crowded": 0.0,
+            "accessible": true,
+            "edgeType": "hallway"
+        },
+        {
+            "from": "StairsSpiral27A",
+            "to": "Room2705",
+            "distance": 16.0,
+            "waitTime": 0,
+            "closed": false,
+            "crowded": 0.0,
+            "accessible": true,
+            "edgeType": "hallway"
+        },
+        {
+            "from": "StairsSpiral27B",
+            "to": "Room2701",
+            "distance": 23.0,
+            "waitTime": 0,
+            "closed": false,
+            "crowded": 0.0,
+            "accessible": true,
+            "edgeType": "hallway"
+        },
+        {
+            "from": "StairsSpiral27B",
+            "to": "Room2702",
+            "distance": 15.0,
+            "waitTime": 0,
+            "closed": false,
+            "crowded": 0.0,
+            "accessible": true,
+            "edgeType": "hallway"
+        },
+        {
+            "from": "StairsSpiral27B",
+            "to": "Room2703",
+            "distance": 10.0,
+            "waitTime": 0,
+            "closed": false,
+            "crowded": 0.0,
+            "accessible": true,
+            "edgeType": "hallway"
+        },
+        {
+            "from": "StairsSpiral27B",
+            "to": "Room2704",
+            "distance": 16.0,
+            "waitTime": 0,
+            "closed": false,
+            "crowded": 0.0,
+            "accessible": true,
+            "edgeType": "hallway"
+        },
+        {
+            "from": "StairsSpiral27B",
+            "to": "Room2705",
+            "distance": 26.0,
+            "waitTime": 0,
+            "closed": false,
+            "crowded": 0.0,
+            "accessible": true,
+            "edgeType": "hallway"
+        },
+        {
+            "from": "Elevator27",
+            "to": "Room2701",
+            "distance": 18.0,
+            "waitTime": 0,
+            "closed": false,
+            "crowded": 0.0,
+            "accessible": true,
+            "edgeType": "hallway"
+        },
+        {
+            "from": "Elevator27",
+            "to": "Room2702",
+            "distance": 10.0,
+            "waitTime": 0,
+            "closed": false,
+            "crowded": 0.0,
+            "accessible": true,
+            "edgeType": "hallway"
+        },
+        {
+            "from": "Elevator27",
+            "to": "Room2703",
+            "distance": 5.0,
+            "waitTime": 0,
+            "closed": false,
+            "crowded": 0.0,
+            "accessible": true,
+            "edgeType": "hallway"
+        },
+        {
+            "from": "Elevator27",
+            "to": "Room2704",
+            "distance": 11.0,
+            "waitTime": 0,
+            "closed": false,
+            "crowded": 0.0,
+            "accessible": true,
+            "edgeType": "hallway"
+        },
+        {
+            "from": "Elevator27",
+            "to": "Room2705",
+            "distance": 21.0,
+            "waitTime": 0,
+            "closed": false,
+            "crowded": 0.0,
+            "accessible": true,
+            "edgeType": "hallway"
+        },
+        {
+            "from": "EscalatorUp28",
+            "to": "Room2801",
+            "distance": 12.0,
+            "waitTime": 0,
+            "closed": false,
+            "crowded": 0.0,
+            "accessible": true,
+            "edgeType": "hallway"
+        },
+        {
+            "from": "EscalatorUp28",
+            "to": "Room2802",
+            "distance": 5.0,
+            "waitTime": 0,
+            "closed": false,
+            "crowded": 0.0,
+            "accessible": true,
+            "edgeType": "hallway"
+        },
+        {
+            "from": "EscalatorUp28",
+            "to": "Room2803",
+            "distance": 3.0,
+            "waitTime": 0,
+            "closed": false,
+            "crowded": 0.0,
+            "accessible": true,
+            "edgeType": "hallway"
+        },
+        {
+            "from": "EscalatorUp28",
+            "to": "Room2804",
+            "distance": 6.0,
+            "waitTime": 0,
+            "closed": false,
+            "crowded": 0.0,
+            "accessible": true,
+            "edgeType": "hallway"
+        },
+        {
+            "from": "EscalatorUp28",
+            "to": "Room2805",
+            "distance": 18.0,
+            "waitTime": 0,
+            "closed": false,
+            "crowded": 0.0,
+            "accessible": true,
+            "edgeType": "hallway"
+        },
+        {
+            "from": "EscalatorDown28",
+            "to": "Room2801",
+            "distance": 6.0,
+            "waitTime": 0,
+            "closed": false,
+            "crowded": 0.0,
+            "accessible": true,
+            "edgeType": "hallway"
+        },
+        {
+            "from": "EscalatorDown28",
+            "to": "Room2802",
+            "distance": 6.0,
+            "waitTime": 0,
+            "closed": false,
+            "crowded": 0.0,
+            "accessible": true,
+            "edgeType": "hallway"
+        },
+        {
+            "from": "EscalatorDown28",
+            "to": "Room2803",
+            "distance": 18.0,
+            "waitTime": 0,
+            "closed": false,
+            "crowded": 0.0,
+            "accessible": true,
+            "edgeType": "hallway"
+        },
+        {
+            "from": "EscalatorDown28",
+            "to": "Room2804",
+            "distance": 15.0,
+            "waitTime": 0,
+            "closed": false,
+            "crowded": 0.0,
+            "accessible": true,
+            "edgeType": "hallway"
+        },
+        {
+            "from": "EscalatorDown28",
+            "to": "Room2805",
+            "distance": 3.0,
+            "waitTime": 0,
+            "closed": false,
+            "crowded": 0.0,
+            "accessible": true,
+            "edgeType": "hallway"
+        },
+        {
+            "from": "StairsUp28D",
+            "to": "Room2801",
+            "distance": 17.0,
+            "waitTime": 0,
+            "closed": false,
+            "crowded": 0.0,
+            "accessible": true,
+            "edgeType": "hallway"
+        },
+        {
+            "from": "StairsUp28D",
+            "to": "Room2802",
+            "distance": 19.0,
+            "waitTime": 0,
+            "closed": false,
+            "crowded": 0.0,
+            "accessible": true,
+            "edgeType": "hallway"
+        },
+        {
+            "from": "StairsUp28D",
+            "to": "Room2803",
+            "distance": 27.0,
+            "waitTime": 0,
+            "closed": false,
+            "crowded": 0.0,
+            "accessible": true,
+            "edgeType": "hallway"
+        },
+        {
+            "from": "StairsUp28D",
+            "to": "Room2804",
+            "distance": 18.0,
+            "waitTime": 0,
+            "closed": false,
+            "crowded": 0.0,
+            "accessible": true,
+            "edgeType": "hallway"
+        },
+        {
+            "from": "StairsUp28D",
+            "to": "Room2805",
+            "distance": 10.0,
+            "waitTime": 0,
+            "closed": false,
+            "crowded": 0.0,
+            "accessible": true,
+            "edgeType": "hallway"
+        },
+        {
+            "from": "StairsDown28D",
+            "to": "Room2801",
+            "distance": 27.0,
+            "waitTime": 0,
+            "closed": false,
+            "crowded": 0.0,
+            "accessible": true,
+            "edgeType": "hallway"
+        },
+        {
+            "from": "StairsDown28D",
+            "to": "Room2802",
+            "distance": 19.0,
+            "waitTime": 0,
+            "closed": false,
+            "crowded": 0.0,
+            "accessible": true,
+            "edgeType": "hallway"
+        },
+        {
+            "from": "StairsDown28D",
+            "to": "Room2803",
+            "distance": 17.0,
+            "waitTime": 0,
+            "closed": false,
+            "crowded": 0.0,
+            "accessible": true,
+            "edgeType": "hallway"
+        },
+        {
+            "from": "StairsDown28D",
+            "to": "Room2804",
+            "distance": 10.0,
+            "waitTime": 0,
+            "closed": false,
+            "crowded": 0.0,
+            "accessible": true,
+            "edgeType": "hallway"
+        },
+        {
+            "from": "StairsDown28D",
+            "to": "Room2805",
+            "distance": 18.0,
+            "waitTime": 0,
+            "closed": false,
+            "crowded": 0.0,
+            "accessible": true,
+            "edgeType": "hallway"
+        },
+        {
+            "from": "StairsSpiral28A",
+            "to": "Room2801",
+            "distance": 10.0,
+            "waitTime": 0,
+            "closed": false,
+            "crowded": 0.0,
+            "accessible": true,
+            "edgeType": "hallway"
+        },
+        {
+            "from": "StairsSpiral28A",
+            "to": "Room2802",
+            "distance": 15.0,
+            "waitTime": 0,
+            "closed": false,
+            "crowded": 0.0,
+            "accessible": true,
+            "edgeType": "hallway"
+        },
+        {
+            "from": "StairsSpiral28A",
+            "to": "Room2803",
+            "distance": 23.0,
+            "waitTime": 0,
+            "closed": false,
+            "crowded": 0.0,
+            "accessible": true,
+            "edgeType": "hallway"
+        },
+        {
+            "from": "StairsSpiral28A",
+            "to": "Room2804",
+            "distance": 26.0,
+            "waitTime": 0,
+            "closed": false,
+            "crowded": 0.0,
+            "accessible": true,
+            "edgeType": "hallway"
+        },
+        {
+            "from": "StairsSpiral28A",
+            "to": "Room2805",
+            "distance": 16.0,
+            "waitTime": 0,
+            "closed": false,
+            "crowded": 0.0,
+            "accessible": true,
+            "edgeType": "hallway"
+        },
+        {
+            "from": "StairsSpiral28B",
+            "to": "Room2801",
+            "distance": 23.0,
+            "waitTime": 0,
+            "closed": false,
+            "crowded": 0.0,
+            "accessible": true,
+            "edgeType": "hallway"
+        },
+        {
+            "from": "StairsSpiral28B",
+            "to": "Room2802",
+            "distance": 15.0,
+            "waitTime": 0,
+            "closed": false,
+            "crowded": 0.0,
+            "accessible": true,
+            "edgeType": "hallway"
+        },
+        {
+            "from": "StairsSpiral28B",
+            "to": "Room2803",
+            "distance": 10.0,
+            "waitTime": 0,
+            "closed": false,
+            "crowded": 0.0,
+            "accessible": true,
+            "edgeType": "hallway"
+        },
+        {
+            "from": "StairsSpiral28B",
+            "to": "Room2804",
+            "distance": 16.0,
+            "waitTime": 0,
+            "closed": false,
+            "crowded": 0.0,
+            "accessible": true,
+            "edgeType": "hallway"
+        },
+        {
+            "from": "StairsSpiral28B",
+            "to": "Room2805",
+            "distance": 26.0,
+            "waitTime": 0,
+            "closed": false,
+            "crowded": 0.0,
+            "accessible": true,
+            "edgeType": "hallway"
+        },
+        {
+            "from": "Elevator28",
+            "to": "Room2801",
+            "distance": 18.0,
+            "waitTime": 0,
+            "closed": false,
+            "crowded": 0.0,
+            "accessible": true,
+            "edgeType": "hallway"
+        },
+        {
+            "from": "Elevator28",
+            "to": "Room2802",
+            "distance": 10.0,
+            "waitTime": 0,
+            "closed": false,
+            "crowded": 0.0,
+            "accessible": true,
+            "edgeType": "hallway"
+        },
+        {
+            "from": "Elevator28",
+            "to": "Room2803",
+            "distance": 5.0,
+            "waitTime": 0,
+            "closed": false,
+            "crowded": 0.0,
+            "accessible": true,
+            "edgeType": "hallway"
+        },
+        {
+            "from": "Elevator28",
+            "to": "Room2804",
+            "distance": 11.0,
+            "waitTime": 0,
+            "closed": false,
+            "crowded": 0.0,
+            "accessible": true,
+            "edgeType": "hallway"
+        },
+        {
+            "from": "Elevator28",
+            "to": "Room2805",
+            "distance": 21.0,
+            "waitTime": 0,
+            "closed": false,
+            "crowded": 0.0,
+            "accessible": true,
+            "edgeType": "hallway"
+        },
+        {
+            "from": "EscalatorUp29",
+            "to": "Room2901",
+            "distance": 12.0,
+            "waitTime": 0,
+            "closed": false,
+            "crowded": 0.0,
+            "accessible": true,
+            "edgeType": "hallway"
+        },
+        {
+            "from": "EscalatorUp29",
+            "to": "Room2902",
+            "distance": 5.0,
+            "waitTime": 0,
+            "closed": false,
+            "crowded": 0.0,
+            "accessible": true,
+            "edgeType": "hallway"
+        },
+        {
+            "from": "EscalatorUp29",
+            "to": "Room2903",
+            "distance": 3.0,
+            "waitTime": 0,
+            "closed": false,
+            "crowded": 0.0,
+            "accessible": true,
+            "edgeType": "hallway"
+        },
+        {
+            "from": "EscalatorUp29",
+            "to": "Room2904",
+            "distance": 6.0,
+            "waitTime": 0,
+            "closed": false,
+            "crowded": 0.0,
+            "accessible": true,
+            "edgeType": "hallway"
+        },
+        {
+            "from": "EscalatorUp29",
+            "to": "Room2905",
+            "distance": 18.0,
+            "waitTime": 0,
+            "closed": false,
+            "crowded": 0.0,
+            "accessible": true,
+            "edgeType": "hallway"
+        },
+        {
+            "from": "EscalatorDown29",
+            "to": "Room2901",
+            "distance": 6.0,
+            "waitTime": 0,
+            "closed": false,
+            "crowded": 0.0,
+            "accessible": true,
+            "edgeType": "hallway"
+        },
+        {
+            "from": "EscalatorDown29",
+            "to": "Room2902",
+            "distance": 6.0,
+            "waitTime": 0,
+            "closed": false,
+            "crowded": 0.0,
+            "accessible": true,
+            "edgeType": "hallway"
+        },
+        {
+            "from": "EscalatorDown29",
+            "to": "Room2903",
+            "distance": 18.0,
+            "waitTime": 0,
+            "closed": false,
+            "crowded": 0.0,
+            "accessible": true,
+            "edgeType": "hallway"
+        },
+        {
+            "from": "EscalatorDown29",
+            "to": "Room2904",
+            "distance": 15.0,
+            "waitTime": 0,
+            "closed": false,
+            "crowded": 0.0,
+            "accessible": true,
+            "edgeType": "hallway"
+        },
+        {
+            "from": "EscalatorDown29",
+            "to": "Room2905",
+            "distance": 3.0,
+            "waitTime": 0,
+            "closed": false,
+            "crowded": 0.0,
+            "accessible": true,
+            "edgeType": "hallway"
+        },
+        {
+            "from": "StairsUp29D",
+            "to": "Room2901",
+            "distance": 17.0,
+            "waitTime": 0,
+            "closed": false,
+            "crowded": 0.0,
+            "accessible": true,
+            "edgeType": "hallway"
+        },
+        {
+            "from": "StairsUp29D",
+            "to": "Room2902",
+            "distance": 19.0,
+            "waitTime": 0,
+            "closed": false,
+            "crowded": 0.0,
+            "accessible": true,
+            "edgeType": "hallway"
+        },
+        {
+            "from": "StairsUp29D",
+            "to": "Room2903",
+            "distance": 27.0,
+            "waitTime": 0,
+            "closed": false,
+            "crowded": 0.0,
+            "accessible": true,
+            "edgeType": "hallway"
+        },
+        {
+            "from": "StairsUp29D",
+            "to": "Room2904",
+            "distance": 18.0,
+            "waitTime": 0,
+            "closed": false,
+            "crowded": 0.0,
+            "accessible": true,
+            "edgeType": "hallway"
+        },
+        {
+            "from": "StairsUp29D",
+            "to": "Room2905",
+            "distance": 10.0,
+            "waitTime": 0,
+            "closed": false,
+            "crowded": 0.0,
+            "accessible": true,
+            "edgeType": "hallway"
+        },
+        {
+            "from": "StairsDown29D",
+            "to": "Room2901",
+            "distance": 27.0,
+            "waitTime": 0,
+            "closed": false,
+            "crowded": 0.0,
+            "accessible": true,
+            "edgeType": "hallway"
+        },
+        {
+            "from": "StairsDown29D",
+            "to": "Room2902",
+            "distance": 19.0,
+            "waitTime": 0,
+            "closed": false,
+            "crowded": 0.0,
+            "accessible": true,
+            "edgeType": "hallway"
+        },
+        {
+            "from": "StairsDown29D",
+            "to": "Room2903",
+            "distance": 17.0,
+            "waitTime": 0,
+            "closed": false,
+            "crowded": 0.0,
+            "accessible": true,
+            "edgeType": "hallway"
+        },
+        {
+            "from": "StairsDown29D",
+            "to": "Room2904",
+            "distance": 10.0,
+            "waitTime": 0,
+            "closed": false,
+            "crowded": 0.0,
+            "accessible": true,
+            "edgeType": "hallway"
+        },
+        {
+            "from": "StairsDown29D",
+            "to": "Room2905",
+            "distance": 18.0,
+            "waitTime": 0,
+            "closed": false,
+            "crowded": 0.0,
+            "accessible": true,
+            "edgeType": "hallway"
+        },
+        {
+            "from": "StairsSpiral29A",
+            "to": "Room2901",
+            "distance": 10.0,
+            "waitTime": 0,
+            "closed": false,
+            "crowded": 0.0,
+            "accessible": true,
+            "edgeType": "hallway"
+        },
+        {
+            "from": "StairsSpiral29A",
+            "to": "Room2902",
+            "distance": 15.0,
+            "waitTime": 0,
+            "closed": false,
+            "crowded": 0.0,
+            "accessible": true,
+            "edgeType": "hallway"
+        },
+        {
+            "from": "StairsSpiral29A",
+            "to": "Room2903",
+            "distance": 23.0,
+            "waitTime": 0,
+            "closed": false,
+            "crowded": 0.0,
+            "accessible": true,
+            "edgeType": "hallway"
+        },
+        {
+            "from": "StairsSpiral29A",
+            "to": "Room2904",
+            "distance": 26.0,
+            "waitTime": 0,
+            "closed": false,
+            "crowded": 0.0,
+            "accessible": true,
+            "edgeType": "hallway"
+        },
+        {
+            "from": "StairsSpiral29A",
+            "to": "Room2905",
+            "distance": 16.0,
+            "waitTime": 0,
+            "closed": false,
+            "crowded": 0.0,
+            "accessible": true,
+            "edgeType": "hallway"
+        },
+        {
+            "from": "StairsSpiral29B",
+            "to": "Room2901",
+            "distance": 23.0,
+            "waitTime": 0,
+            "closed": false,
+            "crowded": 0.0,
+            "accessible": true,
+            "edgeType": "hallway"
+        },
+        {
+            "from": "StairsSpiral29B",
+            "to": "Room2902",
+            "distance": 15.0,
+            "waitTime": 0,
+            "closed": false,
+            "crowded": 0.0,
+            "accessible": true,
+            "edgeType": "hallway"
+        },
+        {
+            "from": "StairsSpiral29B",
+            "to": "Room2903",
+            "distance": 10.0,
+            "waitTime": 0,
+            "closed": false,
+            "crowded": 0.0,
+            "accessible": true,
+            "edgeType": "hallway"
+        },
+        {
+            "from": "StairsSpiral29B",
+            "to": "Room2904",
+            "distance": 16.0,
+            "waitTime": 0,
+            "closed": false,
+            "crowded": 0.0,
+            "accessible": true,
+            "edgeType": "hallway"
+        },
+        {
+            "from": "StairsSpiral29B",
+            "to": "Room2905",
+            "distance": 26.0,
+            "waitTime": 0,
+            "closed": false,
+            "crowded": 0.0,
+            "accessible": true,
+            "edgeType": "hallway"
+        },
+        {
+            "from": "Elevator29",
+            "to": "Room2901",
+            "distance": 18.0,
+            "waitTime": 0,
+            "closed": false,
+            "crowded": 0.0,
+            "accessible": true,
+            "edgeType": "hallway"
+        },
+        {
+            "from": "Elevator29",
+            "to": "Room2902",
+            "distance": 10.0,
+            "waitTime": 0,
+            "closed": false,
+            "crowded": 0.0,
+            "accessible": true,
+            "edgeType": "hallway"
+        },
+        {
+            "from": "Elevator29",
+            "to": "Room2903",
+            "distance": 5.0,
+            "waitTime": 0,
+            "closed": false,
+            "crowded": 0.0,
+            "accessible": true,
+            "edgeType": "hallway"
+        },
+        {
+            "from": "Elevator29",
+            "to": "Room2904",
+            "distance": 11.0,
+            "waitTime": 0,
+            "closed": false,
+            "crowded": 0.0,
+            "accessible": true,
+            "edgeType": "hallway"
+        },
+        {
+            "from": "Elevator29",
+            "to": "Room2905",
+            "distance": 21.0,
+            "waitTime": 0,
+            "closed": false,
+            "crowded": 0.0,
+            "accessible": true,
+            "edgeType": "hallway"
+        },
+        {
+            "from": "EscalatorUp210",
+            "to": "Room21001",
+            "distance": 12.0,
+            "waitTime": 0,
+            "closed": false,
+            "crowded": 0.0,
+            "accessible": true,
+            "edgeType": "hallway"
+        },
+        {
+            "from": "EscalatorUp210",
+            "to": "Room21002",
+            "distance": 5.0,
+            "waitTime": 0,
+            "closed": false,
+            "crowded": 0.0,
+            "accessible": true,
+            "edgeType": "hallway"
+        },
+        {
+            "from": "EscalatorUp210",
+            "to": "Room21003",
+            "distance": 3.0,
+            "waitTime": 0,
+            "closed": false,
+            "crowded": 0.0,
+            "accessible": true,
+            "edgeType": "hallway"
+        },
+        {
+            "from": "EscalatorUp210",
+            "to": "Room21004",
+            "distance": 6.0,
+            "waitTime": 0,
+            "closed": false,
+            "crowded": 0.0,
+            "accessible": true,
+            "edgeType": "hallway"
+        },
+        {
+            "from": "EscalatorUp210",
+            "to": "Room21005",
+            "distance": 18.0,
+            "waitTime": 0,
+            "closed": false,
+            "crowded": 0.0,
+            "accessible": true,
+            "edgeType": "hallway"
+        },
+        {
+            "from": "EscalatorDown210",
+            "to": "Room21001",
+            "distance": 6.0,
+            "waitTime": 0,
+            "closed": false,
+            "crowded": 0.0,
+            "accessible": true,
+            "edgeType": "hallway"
+        },
+        {
+            "from": "EscalatorDown210",
+            "to": "Room21002",
+            "distance": 6.0,
+            "waitTime": 0,
+            "closed": false,
+            "crowded": 0.0,
+            "accessible": true,
+            "edgeType": "hallway"
+        },
+        {
+            "from": "EscalatorDown210",
+            "to": "Room21003",
+            "distance": 18.0,
+            "waitTime": 0,
+            "closed": false,
+            "crowded": 0.0,
+            "accessible": true,
+            "edgeType": "hallway"
+        },
+        {
+            "from": "EscalatorDown210",
+            "to": "Room21004",
+            "distance": 15.0,
+            "waitTime": 0,
+            "closed": false,
+            "crowded": 0.0,
+            "accessible": true,
+            "edgeType": "hallway"
+        },
+        {
+            "from": "EscalatorDown210",
+            "to": "Room21005",
+            "distance": 3.0,
+            "waitTime": 0,
+            "closed": false,
+            "crowded": 0.0,
+            "accessible": true,
+            "edgeType": "hallway"
+        },
+        {
+            "from": "StairsUp210D",
+            "to": "Room21001",
+            "distance": 17.0,
+            "waitTime": 0,
+            "closed": false,
+            "crowded": 0.0,
+            "accessible": true,
+            "edgeType": "hallway"
+        },
+        {
+            "from": "StairsUp210D",
+            "to": "Room21002",
+            "distance": 19.0,
+            "waitTime": 0,
+            "closed": false,
+            "crowded": 0.0,
+            "accessible": true,
+            "edgeType": "hallway"
+        },
+        {
+            "from": "StairsUp210D",
+            "to": "Room21003",
+            "distance": 27.0,
+            "waitTime": 0,
+            "closed": false,
+            "crowded": 0.0,
+            "accessible": true,
+            "edgeType": "hallway"
+        },
+        {
+            "from": "StairsUp210D",
+            "to": "Room21004",
+            "distance": 18.0,
+            "waitTime": 0,
+            "closed": false,
+            "crowded": 0.0,
+            "accessible": true,
+            "edgeType": "hallway"
+        },
+        {
+            "from": "StairsUp210D",
+            "to": "Room21005",
+            "distance": 10.0,
+            "waitTime": 0,
+            "closed": false,
+            "crowded": 0.0,
+            "accessible": true,
+            "edgeType": "hallway"
+        },
+        {
+            "from": "StairsDown210D",
+            "to": "Room21001",
+            "distance": 27.0,
+            "waitTime": 0,
+            "closed": false,
+            "crowded": 0.0,
+            "accessible": true,
+            "edgeType": "hallway"
+        },
+        {
+            "from": "StairsDown210D",
+            "to": "Room21002",
+            "distance": 19.0,
+            "waitTime": 0,
+            "closed": false,
+            "crowded": 0.0,
+            "accessible": true,
+            "edgeType": "hallway"
+        },
+        {
+            "from": "StairsDown210D",
+            "to": "Room21003",
+            "distance": 17.0,
+            "waitTime": 0,
+            "closed": false,
+            "crowded": 0.0,
+            "accessible": true,
+            "edgeType": "hallway"
+        },
+        {
+            "from": "StairsDown210D",
+            "to": "Room21004",
+            "distance": 10.0,
+            "waitTime": 0,
+            "closed": false,
+            "crowded": 0.0,
+            "accessible": true,
+            "edgeType": "hallway"
+        },
+        {
+            "from": "StairsDown210D",
+            "to": "Room21005",
+            "distance": 18.0,
+            "waitTime": 0,
+            "closed": false,
+            "crowded": 0.0,
+            "accessible": true,
+            "edgeType": "hallway"
+        },
+        {
+            "from": "StairsSpiral210A",
+            "to": "Room21001",
+            "distance": 10.0,
+            "waitTime": 0,
+            "closed": false,
+            "crowded": 0.0,
+            "accessible": true,
+            "edgeType": "hallway"
+        },
+        {
+            "from": "StairsSpiral210A",
+            "to": "Room21002",
+            "distance": 15.0,
+            "waitTime": 0,
+            "closed": false,
+            "crowded": 0.0,
+            "accessible": true,
+            "edgeType": "hallway"
+        },
+        {
+            "from": "StairsSpiral210A",
+            "to": "Room21003",
+            "distance": 23.0,
+            "waitTime": 0,
+            "closed": false,
+            "crowded": 0.0,
+            "accessible": true,
+            "edgeType": "hallway"
+        },
+        {
+            "from": "StairsSpiral210A",
+            "to": "Room21004",
+            "distance": 26.0,
+            "waitTime": 0,
+            "closed": false,
+            "crowded": 0.0,
+            "accessible": true,
+            "edgeType": "hallway"
+        },
+        {
+            "from": "StairsSpiral210A",
+            "to": "Room21005",
+            "distance": 16.0,
+            "waitTime": 0,
+            "closed": false,
+            "crowded": 0.0,
+            "accessible": true,
+            "edgeType": "hallway"
+        },
+        {
+            "from": "StairsSpiral210B",
+            "to": "Room21001",
+            "distance": 23.0,
+            "waitTime": 0,
+            "closed": false,
+            "crowded": 0.0,
+            "accessible": true,
+            "edgeType": "hallway"
+        },
+        {
+            "from": "StairsSpiral210B",
+            "to": "Room21002",
+            "distance": 15.0,
+            "waitTime": 0,
+            "closed": false,
+            "crowded": 0.0,
+            "accessible": true,
+            "edgeType": "hallway"
+        },
+        {
+            "from": "StairsSpiral210B",
+            "to": "Room21003",
+            "distance": 10.0,
+            "waitTime": 0,
+            "closed": false,
+            "crowded": 0.0,
+            "accessible": true,
+            "edgeType": "hallway"
+        },
+        {
+            "from": "StairsSpiral210B",
+            "to": "Room21004",
+            "distance": 16.0,
+            "waitTime": 0,
+            "closed": false,
+            "crowded": 0.0,
+            "accessible": true,
+            "edgeType": "hallway"
+        },
+        {
+            "from": "StairsSpiral210B",
+            "to": "Room21005",
+            "distance": 26.0,
+            "waitTime": 0,
+            "closed": false,
+            "crowded": 0.0,
+            "accessible": true,
+            "edgeType": "hallway"
+        },
+        {
+            "from": "Elevator210",
+            "to": "Room21001",
+            "distance": 18.0,
+            "waitTime": 0,
+            "closed": false,
+            "crowded": 0.0,
+            "accessible": true,
+            "edgeType": "hallway"
+        },
+        {
+            "from": "Elevator210",
+            "to": "Room21002",
+            "distance": 10.0,
+            "waitTime": 0,
+            "closed": false,
+            "crowded": 0.0,
+            "accessible": true,
+            "edgeType": "hallway"
+        },
+        {
+            "from": "Elevator210",
+            "to": "Room21003",
+            "distance": 5.0,
+            "waitTime": 0,
+            "closed": false,
+            "crowded": 0.0,
+            "accessible": true,
+            "edgeType": "hallway"
+        },
+        {
+            "from": "Elevator210",
+            "to": "Room21004",
+            "distance": 11.0,
+            "waitTime": 0,
+            "closed": false,
+            "crowded": 0.0,
+            "accessible": true,
+            "edgeType": "hallway"
+        },
+        {
+            "from": "Elevator210",
+            "to": "Room21005",
+            "distance": 21.0,
+            "waitTime": 0,
+            "closed": false,
+            "crowded": 0.0,
+            "accessible": true,
+            "edgeType": "hallway"
+        },
+        {
+            "from": "EscalatorUp21",
+            "to": "EscalatorUp22",
+            "distance": 1.0,
+            "waitTime": 12.0,
+            "closed": false,
+            "crowded": 0.0,
+            "accessible": true,
+            "edgeType": "escalator"
+        },
+        {
+            "from": "EscalatorDown22",
+            "to": "EscalatorDown21",
+            "distance": 1.0,
+            "waitTime": 12.0,
+            "closed": false,
+            "crowded": 0.0,
+            "accessible": true,
+            "edgeType": "escalator"
+        },
+        {
+            "from": "StairsUp21D",
+            "to": "StairsDown22D",
+            "distance": 8.0,
+            "waitTime": 0.0,
+            "closed": false,
+            "crowded": 0.0,
+            "accessible": true,
+            "edgeType": "escalator"
+        },
+        {
+            "from": "StairsSpiral21A",
+            "to": "StairsSpiral22A",
+            "distance": 8.0,
+            "waitTime": 0.0,
+            "closed": false,
+            "crowded": 0.0,
+            "accessible": true,
+            "edgeType": "escalator"
+        },
+        {
+            "from": "StairsSpiral21B",
+            "to": "StairsSpiral22B",
+            "distance": 8.0,
+            "waitTime": 0.0,
+            "closed": false,
+            "crowded": 0.0,
+            "accessible": true,
+            "edgeType": "escalator"
+        },
+        {
+            "from": "Elevator21",
+            "to": "Elevator22",
+            "distance": 0.5,
+            "waitTime": 20.0,
+            "closed": false,
+            "crowded": 0.0,
+            "accessible": true,
+            "edgeType": "escalator"
+        },
+        {
+            "from": "EscalatorUp22",
+            "to": "EscalatorUp23",
+            "distance": 1.0,
+            "waitTime": 12.0,
+            "closed": false,
+            "crowded": 0.0,
+            "accessible": true,
+            "edgeType": "escalator"
+        },
+        {
+            "from": "EscalatorDown23",
+            "to": "EscalatorDown22",
+            "distance": 1.0,
+            "waitTime": 12.0,
+            "closed": false,
+            "crowded": 0.0,
+            "accessible": true,
+            "edgeType": "escalator"
+        },
+        {
+            "from": "StairsUp22D",
+            "to": "StairsDown23D",
+            "distance": 8.0,
+            "waitTime": 0.0,
+            "closed": false,
+            "crowded": 0.0,
+            "accessible": true,
+            "edgeType": "escalator"
+        },
+        {
+            "from": "StairsSpiral22A",
+            "to": "StairsSpiral23A",
+            "distance": 8.0,
+            "waitTime": 0.0,
+            "closed": false,
+            "crowded": 0.0,
+            "accessible": true,
+            "edgeType": "escalator"
+        },
+        {
+            "from": "StairsSpiral22B",
+            "to": "StairsSpiral23B",
+            "distance": 8.0,
+            "waitTime": 0.0,
+            "closed": false,
+            "crowded": 0.0,
+            "accessible": true,
+            "edgeType": "escalator"
+        },
+        {
+            "from": "Elevator22",
+            "to": "Elevator23",
+            "distance": 0.5,
+            "waitTime": 20.0,
+            "closed": false,
+            "crowded": 0.0,
+            "accessible": true,
+            "edgeType": "escalator"
+        },
+        {
+            "from": "EscalatorUp23",
+            "to": "EscalatorUp24",
+            "distance": 1.0,
+            "waitTime": 12.0,
+            "closed": false,
+            "crowded": 0.0,
+            "accessible": true,
+            "edgeType": "escalator"
+        },
+        {
+            "from": "EscalatorDown24",
+            "to": "EscalatorDown23",
+            "distance": 1.0,
+            "waitTime": 12.0,
+            "closed": false,
+            "crowded": 0.0,
+            "accessible": true,
+            "edgeType": "escalator"
+        },
+        {
+            "from": "StairsUp23D",
+            "to": "StairsDown24D",
+            "distance": 8.0,
+            "waitTime": 0.0,
+            "closed": false,
+            "crowded": 0.0,
+            "accessible": true,
+            "edgeType": "escalator"
+        },
+        {
+            "from": "StairsSpiral23A",
+            "to": "StairsSpiral24A",
+            "distance": 8.0,
+            "waitTime": 0.0,
+            "closed": false,
+            "crowded": 0.0,
+            "accessible": true,
+            "edgeType": "escalator"
+        },
+        {
+            "from": "StairsSpiral23B",
+            "to": "StairsSpiral24B",
+            "distance": 8.0,
+            "waitTime": 0.0,
+            "closed": false,
+            "crowded": 0.0,
+            "accessible": true,
+            "edgeType": "escalator"
+        },
+        {
+            "from": "Elevator23",
+            "to": "Elevator24",
+            "distance": 0.5,
+            "waitTime": 20.0,
+            "closed": false,
+            "crowded": 0.0,
+            "accessible": true,
+            "edgeType": "escalator"
+        },
+        {
+            "from": "EscalatorUp24",
+            "to": "EscalatorUp25",
+            "distance": 1.0,
+            "waitTime": 12.0,
+            "closed": false,
+            "crowded": 0.0,
+            "accessible": true,
+            "edgeType": "escalator"
+        },
+        {
+            "from": "EscalatorDown25",
+            "to": "EscalatorDown24",
+            "distance": 1.0,
+            "waitTime": 12.0,
+            "closed": false,
+            "crowded": 0.0,
+            "accessible": true,
+            "edgeType": "escalator"
+        },
+        {
+            "from": "StairsUp24D",
+            "to": "StairsDown25D",
+            "distance": 8.0,
+            "waitTime": 0.0,
+            "closed": false,
+            "crowded": 0.0,
+            "accessible": true,
+            "edgeType": "escalator"
+        },
+        {
+            "from": "StairsSpiral24A",
+            "to": "StairsSpiral25A",
+            "distance": 8.0,
+            "waitTime": 0.0,
+            "closed": false,
+            "crowded": 0.0,
+            "accessible": true,
+            "edgeType": "escalator"
+        },
+        {
+            "from": "StairsSpiral24B",
+            "to": "StairsSpiral25B",
+            "distance": 8.0,
+            "waitTime": 0.0,
+            "closed": false,
+            "crowded": 0.0,
+            "accessible": true,
+            "edgeType": "escalator"
+        },
+        {
+            "from": "Elevator24",
+            "to": "Elevator25",
+            "distance": 0.5,
+            "waitTime": 20.0,
+            "closed": false,
+            "crowded": 0.0,
+            "accessible": true,
+            "edgeType": "escalator"
+        },
+        {
+            "from": "EscalatorUp25",
+            "to": "EscalatorUp26",
+            "distance": 1.0,
+            "waitTime": 12.0,
+            "closed": false,
+            "crowded": 0.0,
+            "accessible": true,
+            "edgeType": "escalator"
+        },
+        {
+            "from": "EscalatorDown26",
+            "to": "EscalatorDown25",
+            "distance": 1.0,
+            "waitTime": 12.0,
+            "closed": false,
+            "crowded": 0.0,
+            "accessible": true,
+            "edgeType": "escalator"
+        },
+        {
+            "from": "StairsUp25D",
+            "to": "StairsDown26D",
+            "distance": 8.0,
+            "waitTime": 0.0,
+            "closed": false,
+            "crowded": 0.0,
+            "accessible": true,
+            "edgeType": "escalator"
+        },
+        {
+            "from": "StairsSpiral25A",
+            "to": "StairsSpiral26A",
+            "distance": 8.0,
+            "waitTime": 0.0,
+            "closed": false,
+            "crowded": 0.0,
+            "accessible": true,
+            "edgeType": "escalator"
+        },
+        {
+            "from": "StairsSpiral25B",
+            "to": "StairsSpiral26B",
+            "distance": 8.0,
+            "waitTime": 0.0,
+            "closed": false,
+            "crowded": 0.0,
+            "accessible": true,
+            "edgeType": "escalator"
+        },
+        {
+            "from": "Elevator25",
+            "to": "Elevator26",
+            "distance": 0.5,
+            "waitTime": 20.0,
+            "closed": false,
+            "crowded": 0.0,
+            "accessible": true,
+            "edgeType": "escalator"
+        },
+        {
+            "from": "EscalatorUp26",
+            "to": "EscalatorUp27",
+            "distance": 1.0,
+            "waitTime": 12.0,
+            "closed": false,
+            "crowded": 0.0,
+            "accessible": true,
+            "edgeType": "escalator"
+        },
+        {
+            "from": "EscalatorDown27",
+            "to": "EscalatorDown26",
+            "distance": 1.0,
+            "waitTime": 12.0,
+            "closed": false,
+            "crowded": 0.0,
+            "accessible": true,
+            "edgeType": "escalator"
+        },
+        {
+            "from": "StairsUp26D",
+            "to": "StairsDown27D",
+            "distance": 8.0,
+            "waitTime": 0.0,
+            "closed": false,
+            "crowded": 0.0,
+            "accessible": true,
+            "edgeType": "escalator"
+        },
+        {
+            "from": "StairsSpiral26A",
+            "to": "StairsSpiral27A",
+            "distance": 8.0,
+            "waitTime": 0.0,
+            "closed": false,
+            "crowded": 0.0,
+            "accessible": true,
+            "edgeType": "escalator"
+        },
+        {
+            "from": "StairsSpiral26B",
+            "to": "StairsSpiral27B",
+            "distance": 8.0,
+            "waitTime": 0.0,
+            "closed": false,
+            "crowded": 0.0,
+            "accessible": true,
+            "edgeType": "escalator"
+        },
+        {
+            "from": "Elevator26",
+            "to": "Elevator27",
+            "distance": 0.5,
+            "waitTime": 20.0,
+            "closed": false,
+            "crowded": 0.0,
+            "accessible": true,
+            "edgeType": "escalator"
+        },
+        {
+            "from": "EscalatorUp27",
+            "to": "EscalatorUp28",
+            "distance": 1.0,
+            "waitTime": 12.0,
+            "closed": false,
+            "crowded": 0.0,
+            "accessible": true,
+            "edgeType": "escalator"
+        },
+        {
+            "from": "EscalatorDown28",
+            "to": "EscalatorDown27",
+            "distance": 1.0,
+            "waitTime": 12.0,
+            "closed": false,
+            "crowded": 0.0,
+            "accessible": true,
+            "edgeType": "escalator"
+        },
+        {
+            "from": "StairsUp27D",
+            "to": "StairsDown28D",
+            "distance": 8.0,
+            "waitTime": 0.0,
+            "closed": false,
+            "crowded": 0.0,
+            "accessible": true,
+            "edgeType": "escalator"
+        },
+        {
+            "from": "StairsSpiral27A",
+            "to": "StairsSpiral28A",
+            "distance": 8.0,
+            "waitTime": 0.0,
+            "closed": false,
+            "crowded": 0.0,
+            "accessible": true,
+            "edgeType": "escalator"
+        },
+        {
+            "from": "StairsSpiral27B",
+            "to": "StairsSpiral28B",
+            "distance": 8.0,
+            "waitTime": 0.0,
+            "closed": false,
+            "crowded": 0.0,
+            "accessible": true,
+            "edgeType": "escalator"
+        },
+        {
+            "from": "Elevator27",
+            "to": "Elevator28",
+            "distance": 0.5,
+            "waitTime": 20.0,
+            "closed": false,
+            "crowded": 0.0,
+            "accessible": true,
+            "edgeType": "escalator"
+        },
+        {
+            "from": "EscalatorUp28",
+            "to": "EscalatorUp29",
+            "distance": 1.0,
+            "waitTime": 12.0,
+            "closed": false,
+            "crowded": 0.0,
+            "accessible": true,
+            "edgeType": "escalator"
+        },
+        {
+            "from": "EscalatorDown29",
+            "to": "EscalatorDown28",
+            "distance": 1.0,
+            "waitTime": 12.0,
+            "closed": false,
+            "crowded": 0.0,
+            "accessible": true,
+            "edgeType": "escalator"
+        },
+        {
+            "from": "StairsUp28D",
+            "to": "StairsDown29D",
+            "distance": 8.0,
+            "waitTime": 0.0,
+            "closed": false,
+            "crowded": 0.0,
+            "accessible": true,
+            "edgeType": "escalator"
+        },
+        {
+            "from": "StairsSpiral28A",
+            "to": "StairsSpiral29A",
+            "distance": 8.0,
+            "waitTime": 0.0,
+            "closed": false,
+            "crowded": 0.0,
+            "accessible": true,
+            "edgeType": "escalator"
+        },
+        {
+            "from": "StairsSpiral28B",
+            "to": "StairsSpiral29B",
+            "distance": 8.0,
+            "waitTime": 0.0,
+            "closed": false,
+            "crowded": 0.0,
+            "accessible": true,
+            "edgeType": "escalator"
+        },
+        {
+            "from": "Elevator28",
+            "to": "Elevator29",
+            "distance": 0.5,
+            "waitTime": 20.0,
+            "closed": false,
+            "crowded": 0.0,
+            "accessible": true,
+            "edgeType": "escalator"
+        },
+        {
+            "from": "EscalatorUp29",
+            "to": "EscalatorUp210",
+            "distance": 1.0,
+            "waitTime": 12.0,
+            "closed": false,
+            "crowded": 0.0,
+            "accessible": true,
+            "edgeType": "escalator"
+        },
+        {
+            "from": "EscalatorDown210",
+            "to": "EscalatorDown29",
+            "distance": 1.0,
+            "waitTime": 12.0,
+            "closed": false,
+            "crowded": 0.0,
+            "accessible": true,
+            "edgeType": "escalator"
+        },
+        {
+            "from": "StairsUp29D",
+            "to": "StairsDown210D",
+            "distance": 8.0,
+            "waitTime": 0.0,
+            "closed": false,
+            "crowded": 0.0,
+            "accessible": true,
+            "edgeType": "escalator"
+        },
+        {
+            "from": "StairsSpiral29A",
+            "to": "StairsSpiral210A",
+            "distance": 8.0,
+            "waitTime": 0.0,
+            "closed": false,
+            "crowded": 0.0,
+            "accessible": true,
+            "edgeType": "escalator"
+        },
+        {
+            "from": "StairsSpiral29B",
+            "to": "StairsSpiral210B",
+            "distance": 8.0,
+            "waitTime": 0.0,
+            "closed": false,
+            "crowded": 0.0,
+            "accessible": true,
+            "edgeType": "escalator"
+        },
+        {
+            "from": "Elevator29",
+            "to": "Elevator210",
+            "distance": 0.5,
+            "waitTime": 20.0,
+            "closed": false,
+            "crowded": 0.0,
+            "accessible": true,
+            "edgeType": "escalator"
+        }
+    ]
+}
