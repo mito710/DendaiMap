@@ -21,6 +21,11 @@ class RouteRequest(BaseModel):
     start: str
     goal: str
 
+    distance: bool
+    avoidStairs: bool
+    avoidElevator: bool
+    avoidEscalator: bool
+
 
 @app.get("/")
 def root():
@@ -29,16 +34,20 @@ def root():
 
 @app.post("/route")
 def route(request: RouteRequest):
-    return find_route(request.start, request.goal)
+    return find_route(request.start, request.goal,request.mode)
 
 
-def find_route(start, goal):
+def find_route(start, goal,mode):
     try:
+        if mode == "distance": #距離優先
+            weight = "distance"
+        else:
+            weight = "time_weight"#時間優先
         path_cal = nx.shortest_path(
             G,
             source=start,
             target=goal,
-            weight="time_weight"
+            weight=weight
         )
 
         time_cal = calculate_time(path_cal)
