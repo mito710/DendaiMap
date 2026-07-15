@@ -4410,7 +4410,7 @@
             "closed": false,
             "crowded": 0.0,
             "accessible": true,
-            "edgeType": "escalator"
+            "edgeType": "stair"
         },
         {
             "from": "StairsSpiral21A",
@@ -4420,7 +4420,7 @@
             "closed": false,
             "crowded": 0.0,
             "accessible": true,
-            "edgeType": "escalator"
+            "edgeType": "stair"
         },
         {
             "from": "StairsSpiral21B",
@@ -4430,7 +4430,7 @@
             "closed": false,
             "crowded": 0.0,
             "accessible": true,
-            "edgeType": "escalator"
+            "edgeType": "stair"
         },
         {
             "from": "Elevator21",
@@ -4440,7 +4440,7 @@
             "closed": false,
             "crowded": 0.0,
             "accessible": true,
-            "edgeType": "escalator"
+            "edgeType": "elevator"
         },
         {
             "from": "EscalatorUp22",
@@ -4470,7 +4470,7 @@
             "closed": false,
             "crowded": 0.0,
             "accessible": true,
-            "edgeType": "escalator"
+            "edgeType": "stair"
         },
         {
             "from": "StairsSpiral22A",
@@ -4480,7 +4480,7 @@
             "closed": false,
             "crowded": 0.0,
             "accessible": true,
-            "edgeType": "escalator"
+            "edgeType": "stair"
         },
         {
             "from": "StairsSpiral22B",
@@ -4490,7 +4490,7 @@
             "closed": false,
             "crowded": 0.0,
             "accessible": true,
-            "edgeType": "escalator"
+            "edgeType": "stair"
         },
         {
             "from": "Elevator22",
@@ -4500,7 +4500,7 @@
             "closed": false,
             "crowded": 0.0,
             "accessible": true,
-            "edgeType": "escalator"
+            "edgeType": "elevator"
         },
         {
             "from": "EscalatorUp23",
@@ -4530,7 +4530,7 @@
             "closed": false,
             "crowded": 0.0,
             "accessible": true,
-            "edgeType": "escalator"
+            "edgeType": "stair"
         },
         {
             "from": "StairsSpiral23A",
@@ -4540,7 +4540,7 @@
             "closed": false,
             "crowded": 0.0,
             "accessible": true,
-            "edgeType": "escalator"
+            "edgeType": "stair"
         },
         {
             "from": "StairsSpiral23B",
@@ -4550,7 +4550,7 @@
             "closed": false,
             "crowded": 0.0,
             "accessible": true,
-            "edgeType": "escalator"
+            "edgeType": "stair"
         },
         {
             "from": "Elevator23",
@@ -4560,7 +4560,7 @@
             "closed": false,
             "crowded": 0.0,
             "accessible": true,
-            "edgeType": "escalator"
+            "edgeType": "elevator"
         },
         {
             "from": "EscalatorUp24",
@@ -4590,7 +4590,7 @@
             "closed": false,
             "crowded": 0.0,
             "accessible": true,
-            "edgeType": "escalator"
+            "edgeType": "stair"
         },
         {
             "from": "StairsSpiral24A",
@@ -4600,7 +4600,7 @@
             "closed": false,
             "crowded": 0.0,
             "accessible": true,
-            "edgeType": "escalator"
+            "edgeType": "stair"
         },
         {
             "from": "StairsSpiral24B",
@@ -4610,7 +4610,7 @@
             "closed": false,
             "crowded": 0.0,
             "accessible": true,
-            "edgeType": "escalator"
+            "edgeType": "stair"
         },
         {
             "from": "Elevator24",
@@ -4620,7 +4620,7 @@
             "closed": false,
             "crowded": 0.0,
             "accessible": true,
-            "edgeType": "escalator"
+            "edgeType": "elevator"
         },
         {
             "from": "EscalatorUp25",
@@ -4650,7 +4650,7 @@
             "closed": false,
             "crowded": 0.0,
             "accessible": true,
-            "edgeType": "escalator"
+            "edgeType": "stair"
         },
         {
             "from": "StairsSpiral25A",
@@ -4660,7 +4660,7 @@
             "closed": false,
             "crowded": 0.0,
             "accessible": true,
-            "edgeType": "escalator"
+            "edgeType": "stair"
         },
         {
             "from": "StairsSpiral25B",
@@ -4670,7 +4670,7 @@
             "closed": false,
             "crowded": 0.0,
             "accessible": true,
-            "edgeType": "escalator"
+            "edgeType": "stair"
         },
         {
             "from": "Elevator25",
@@ -4680,7 +4680,7 @@
             "closed": false,
             "crowded": 0.0,
             "accessible": true,
-            "edgeType": "escalator"
+            "edgeType": "elevator"
         },
         {
             "from": "EscalatorUp26",
@@ -4710,7 +4710,7 @@
             "closed": false,
             "crowded": 0.0,
             "accessible": true,
-            "edgeType": "escalator"
+            "edgeType": "stair"
         },
         {
             "from": "StairsSpiral26A",
@@ -4720,7 +4720,7 @@
             "closed": false,
             "crowded": 0.0,
             "accessible": true,
-            "edgeType": "escalator"
+            "edgeType": "stair"
         },
         {
             "from": "StairsSpiral26B",
@@ -4730,7 +4730,7 @@
             "closed": false,
             "crowded": 0.0,
             "accessible": true,
-            "edgeType": "escalator"
+            "edgeType": "stair"
         },
         {
             "from": "Elevator26",
@@ -4740,7 +4740,7 @@
             "closed": false,
             "crowded": 0.0,
             "accessible": true,
-            "edgeType": "escalator"
+            "edgeType": "elevator"
         },
         {
             "from": "EscalatorUp27",
@@ -4770,7 +4770,7 @@
             "closed": false,
             "crowded": 0.0,
             "accessible": true,
-            "edgeType": "escalator"
+            "edgeType": "stair"
         },
         {
             "from": "StairsSpiral27A",
@@ -4780,7 +4780,7 @@
             "closed": false,
             "crowded": 0.0,
             "accessible": true,
-            "edgeType": "escalator"
+            "edgeType": "stair"
         },
         {
             "from": "StairsSpiral27B",
@@ -4790,7 +4790,7 @@
             "closed": false,
             "crowded": 0.0,
             "accessible": true,
-            "edgeType": "escalator"
+            "edgeType": "stair"
         },
         {
             "from": "Elevator27",
@@ -4800,7 +4800,7 @@
             "closed": false,
             "crowded": 0.0,
             "accessible": true,
-            "edgeType": "escalator"
+            "edgeType": "elevator"
         },
         {
             "from": "EscalatorUp28",
@@ -4830,7 +4830,7 @@
             "closed": false,
             "crowded": 0.0,
             "accessible": true,
-            "edgeType": "escalator"
+            "edgeType": "stair"
         },
         {
             "from": "StairsSpiral28A",
@@ -4840,7 +4840,7 @@
             "closed": false,
             "crowded": 0.0,
             "accessible": true,
-            "edgeType": "escalator"
+            "edgeType": "stair"
         },
         {
             "from": "StairsSpiral28B",
@@ -4850,7 +4850,7 @@
             "closed": false,
             "crowded": 0.0,
             "accessible": true,
-            "edgeType": "escalator"
+            "edgeType": "stair"
         },
         {
             "from": "Elevator28",
@@ -4860,7 +4860,7 @@
             "closed": false,
             "crowded": 0.0,
             "accessible": true,
-            "edgeType": "escalator"
+            "edgeType": "elevator"
         },
         {
             "from": "EscalatorUp29",
@@ -4890,7 +4890,7 @@
             "closed": false,
             "crowded": 0.0,
             "accessible": true,
-            "edgeType": "escalator"
+            "edgeType": "stair"
         },
         {
             "from": "StairsSpiral29A",
@@ -4900,7 +4900,7 @@
             "closed": false,
             "crowded": 0.0,
             "accessible": true,
-            "edgeType": "escalator"
+            "edgeType": "stair"
         },
         {
             "from": "StairsSpiral29B",
@@ -4910,7 +4910,7 @@
             "closed": false,
             "crowded": 0.0,
             "accessible": true,
-            "edgeType": "escalator"
+            "edgeType": "stair"
         },
         {
             "from": "Elevator29",
@@ -4920,7 +4920,7 @@
             "closed": false,
             "crowded": 0.0,
             "accessible": true,
-            "edgeType": "escalator"
+            "edgeType": "elevator"
         }
     ]
 }
