@@ -20,11 +20,8 @@ app.add_middleware(
 class RouteRequest(BaseModel):
     start: str
     goal: str
-
-    distance: bool
-    avoidStairs: bool
-    avoidElevator: bool
-    avoidEscalator: bool
+    allowStairs: bool
+    priority: str
 
 
 @app.get("/")
@@ -34,24 +31,36 @@ def root():
 
 @app.post("/route")
 def route(request: RouteRequest):
-    return find_route(request.start, request.goal,request.mode)
+    return find_route(
+        request.start,
+        request.goal,
+        request.allowStairs,
+        request.priority
+    )
 
 
-def find_route(start, goal,mode):
+def find_route(start, goal,allow_stairs, priority):
+    graph = G.copy()
     try:
-        if mode == "distance": #距離優先
+        if not allow_stairs:
+            for u, v, data in graph.edges(data=True):
+                if data["edge_type"] == "stair":
+                    data["time_weight"] += 10000
+                    data["distance"] += 10000
+
+        if priority == "distance":
             weight = "distance"
         else:
-            weight = "time_weight"#時間優先
+            weight = "time_weight"
         path_cal = nx.shortest_path(
-            G,
+            graph,
             source=start,
             target=goal,
             weight=weight
         )
 
-        time_cal = calculate_time(path_cal)
-        distance_cal = calculate_distance(path_cal)
+        time_cal = calculate_time(graph,path_cal)
+        distance_cal = calculate_distance(graph,path_cal)
 
         return {
             "path": path_cal,
@@ -73,19 +82,19 @@ def find_route(start, goal,mode):
         }
 
 
-def calculate_time(path):
+def calculate_time(graph,path):
     time = 0.0
 
     for i in range(len(path)-1):
-        time += G[path[i]][path[i+1]]["time_weight"]
+        time += graph[path[i]][path[i+1]]["time_weight"]
 
     return time
 
 
-def calculate_distance(path):
+def calculate_distance(graph,path):
     distance = 0.0
     for i in range(len(path) - 1):
-        distance += G[path[i]][path[i + 1]]["distance"]
+        distance += graph[path[i]][path[i + 1]]["distance"]
 
     return distance
 
