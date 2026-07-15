@@ -24,38 +24,90 @@
 
         <section class="search-panel">
 
-            <div class="location-field">
-                <label for="start">出発地</label>
+    <div class="location-group">
 
-                <select id="start">
-                    <option value="">出発地を選択してください</option>
+        <h2 class="location-title">出発地</h2>
+
+        <div class="select-grid">
+
+            <div class="location-field">
+                <label for="startBuilding">号館</label>
+
+                <select id="startBuilding">
+                    <option value="">号館を選択</option>
                 </select>
             </div>
 
-            <button
-                id="swapButton"
-                class="swap-button"
-                type="button"
-                aria-label="出発地と目的地を入れ替える"
-            >
-                ⇅
-            </button>
-
             <div class="location-field">
-                <label for="goal">目的地</label>
+                <label for="startFloor">階数</label>
 
-                <select id="goal">
-                    <option value="">目的地を選択してください</option>
+                <select id="startFloor" disabled>
+                    <option value="">階数を選択</option>
                 </select>
             </div>
 
-            <button id="searchButton" class="search-button" type="button">
-                経路を検索
-            </button>
+        </div>
 
-            <p id="message" class="message"></p>
+        <div class="location-field">
+            <label for="start">地点</label>
 
-        </section>
+            <select id="start" disabled>
+                <option value="">地点を選択</option>
+            </select>
+        </div>
+
+    </div>
+
+    <button
+        id="swapButton"
+        class="swap-button"
+        type="button"
+        aria-label="出発地と目的地を入れ替える"
+    >
+        ⇅
+    </button>
+
+    <div class="location-group">
+
+        <h2 class="location-title">目的地</h2>
+
+        <div class="select-grid">
+
+            <div class="location-field">
+                <label for="goalBuilding">号館</label>
+
+                <select id="goalBuilding">
+                    <option value="">号館を選択</option>
+                </select>
+            </div>
+
+            <div class="location-field">
+                <label for="goalFloor">階数</label>
+
+                <select id="goalFloor" disabled>
+                    <option value="">階数を選択</option>
+                </select>
+            </div>
+
+        </div>
+
+        <div class="location-field">
+            <label for="goal">地点</label>
+
+            <select id="goal" disabled>
+                <option value="">地点を選択</option>
+            </select>
+        </div>
+
+    </div>
+
+    <button id="searchButton" class="search-button" type="button">
+        経路を検索
+    </button>
+
+    <p id="message" class="message"></p>
+
+</section>
 
         <section id="resultArea" class="result-area hidden">
 
