@@ -49,18 +49,14 @@ async function initializeApp() {
  * ./data/mapping.json
  */
 async function loadMappingData() {
-    const mappingPaths = ["../data/mapping.json", "./data/mapping.json"];
+    try {
+        const response = await fetch("./data/mapping.json");
 
-    for (const path of mappingPaths) {
-        try {
-            const response = await fetch(path);
-
-            if (response.ok) {
-                return await response.json();
-            }
-        } catch (error) {
-            console.warn(`${path}を読み込めませんでした。`, error);
+        if (response.ok) {
+            return await response.json();
         }
+    } catch (error) {
+        console.warn(`${path}を読み込めませんでした。`, error);
     }
 
     throw new Error("mapping.jsonが見つかりません。");
