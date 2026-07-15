@@ -114,6 +114,6 @@ for edge in data["edges"]:
         edge_type=edge["edgeType"]
     )
 
-result = find_route("Room2903", "Room21003")
+#result = find_route("Room2903", "Room21003")
+#print(result)
 
-print(result)
