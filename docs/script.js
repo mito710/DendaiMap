@@ -139,6 +139,7 @@ function swapLocations() {
 async function searchRoute() {
     const start = document.getElementById("start").value;
     const goal = document.getElementById("goal").value;
+    const mode =
     const searchButton = document.getElementById("searchButton");
 
     hideResult();
@@ -169,6 +170,7 @@ async function searchRoute() {
             body: JSON.stringify({
                 start: start,
                 goal: goal,
+                mode: mode
             }),
         });
 
