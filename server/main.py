@@ -11,11 +11,13 @@ app = FastAPI()
 app.add_middleware(
     CORSMiddleware,
     allow_origins=[
-        "https://mito710.github.io/DendaiMap/"
+        "https://mito710.github.io",
+        "http://127.0.0.1:5500",
+        "http://localhost:5500",
     ],
     allow_credentials=False,
     allow_methods=["GET", "POST"],
-    allow_headers=["Content-Type"],
+    allow_headers=["*"],
 )
 
 
