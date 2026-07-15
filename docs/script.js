@@ -345,6 +345,19 @@ async function searchRoute() {
             body: JSON.stringify({
                 start: start,
                 goal: goal,
+
+                ここ変えたから確認してほしいです。検索条件を追加しました。
+                options: {
+
+                    distance: false,
+
+                    avoidStairs: true,
+
+                    avoidElevator: false,
+
+                    avoidEscalator: false,
+
+                }
             }),
         });
 

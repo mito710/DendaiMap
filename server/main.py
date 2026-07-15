@@ -21,6 +21,11 @@ class RouteRequest(BaseModel):
     start: str
     goal: str
 
+    distance: bool
+    avoidStairs: bool
+    avoidElevator: bool
+    avoidEscalator: bool
+
 
 @app.get("/")
 def root():
