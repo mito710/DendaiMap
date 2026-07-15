@@ -1,19 +1,21 @@
 import json
 import networkx as nx
 from pathlib import Path
-from fastapi import FastAPI # type: ignore
-from fastapi.middleware.cors import CORSMiddleware # type: ignore
-from pydantic import BaseModel # type: ignore
+from fastapi import FastAPI  # type: ignore
+from fastapi.middleware.cors import CORSMiddleware  # type: ignore
+from pydantic import BaseModel  # type: ignore
 
-#python -m uvicorn main:app --reload
+# python -m uvicorn main:app --reload
 
 app = FastAPI()
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=["*"],   # 開発用
-    allow_credentials=True,
-    allow_methods=["*"],
-    allow_headers=["*"],
+    allow_origins=[
+        "https://あなたのGitHubユーザー名.github.io"
+    ],
+    allow_credentials=False,
+    allow_methods=["GET", "POST"],
+    allow_headers=["Content-Type"],
 )
 
 
@@ -39,7 +41,7 @@ def route(request: RouteRequest):
     )
 
 
-def find_route(start, goal,allow_stairs, priority):
+def find_route(start, goal, allow_stairs, priority):
     graph = G.copy()
     try:
         if not allow_stairs:
@@ -59,8 +61,8 @@ def find_route(start, goal,allow_stairs, priority):
             weight=weight
         )
 
-        time_cal = calculate_time(graph,path_cal)
-        distance_cal = calculate_distance(graph,path_cal)
+        time_cal = calculate_time(graph, path_cal)
+        distance_cal = calculate_distance(graph, path_cal)
 
         return {
             "path": path_cal,
@@ -82,7 +84,7 @@ def find_route(start, goal,allow_stairs, priority):
         }
 
 
-def calculate_time(graph,path):
+def calculate_time(graph, path):
     time = 0.0
 
     for i in range(len(path)-1):
@@ -91,7 +93,7 @@ def calculate_time(graph,path):
     return time
 
 
-def calculate_distance(graph,path):
+def calculate_distance(graph, path):
     distance = 0.0
     for i in range(len(path) - 1):
         distance += graph[path[i]][path[i + 1]]["distance"]
@@ -132,6 +134,5 @@ for edge in data["edges"]:
         edge_type=edge["edgeType"]
     )
 
-#result = find_route("Room2903", "Room21003")
-#print(result)
-
+# result = find_route("Room2903", "Room21003")
+# print(result)
