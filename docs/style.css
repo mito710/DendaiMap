@@ -370,3 +370,39 @@ select:disabled {
         grid-template-columns: 1fr;
     }
 }
+
+.route-options{
+    display:flex;
+    gap:30px;
+    margin:20px 0;
+}
+
+.option-group{
+    display:flex;
+    align-items:center;
+    gap:10px;
+}
+
+.option-group p{
+    margin:0;
+    font-weight:bold;
+}
+
+.option-btn{
+    padding:8px 18px;
+    border:2px solid #0066cc;
+    border-radius:20px;
+    background:white;
+    color:#0066cc;
+    cursor:pointer;
+    transition:.2s;
+}
+
+.option-btn:hover{
+    background:#eaf4ff;
+}
+
+.option-btn.active{
+    background:#0066cc;
+    color:white;
+}
